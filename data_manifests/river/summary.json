@@ -1,0 +1,48 @@
+{
+  "manifest_path": "river_video_manifest(3).jsonl",
+  "annotation_dir": "annotations",
+  "output_dir": "data_manifests/river",
+  "total_rows": 1346,
+  "unique_source_video_ids": 1346,
+  "unique_video_ids": 1190,
+  "by_video_source": {
+    "Ego-Ego4D-Narration-Val": 655,
+    "Ego4D-Narration-Val": 246,
+    "LVBench": 82,
+    "LongVideoBench": 7,
+    "QVHighlights-Val": 354,
+    "Vript-RR": 2
+  },
+  "by_task": {
+    "live_perception": 91,
+    "pro_response_instant": 1009,
+    "pro_response_streaming": 246,
+    "retro_memory": 91
+  },
+  "by_task_combo": {
+    "live_perception,retro_memory": 91,
+    "pro_response_instant": 1009,
+    "pro_response_streaming": 246
+  },
+  "by_inferred_split": {
+    "val": 1255
+  },
+  "download_lists": {
+    "ego4d_unique_uids": 745,
+    "qvhighlights_clips": 354,
+    "qvhighlights_unique_youtube_ids": 251,
+    "lvbench_video_ids": 82,
+    "longvideobench_video_ids": 7,
+    "vript_video_ids": 2
+  },
+  "annotation_coverage_check": {
+    "manifest_missing_from_annotations": 0,
+    "annotations_missing_from_manifest": 0,
+    "task_mismatches": 0
+  },
+  "duplicate_check": {
+    "duplicate_source_video_ids": 0,
+    "duplicate_video_ids_across_sources": 156
+  },
+  "qvhighlights_parse_errors": 0
+}

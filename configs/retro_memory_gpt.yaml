@@ -1,0 +1,22 @@
+experiment:
+  name: retro_memory_gpt
+  output_dir: results/retro_memory_gpt
+  max_samples: 10
+
+dataset:
+  annotation_path: annotations/Retro-Memory.json
+  video_root: data/videos/RIVER
+
+task:
+  name: retro_memory
+  max_frames: 16
+  frame_resolution: 448
+
+model:
+  name: openai
+  model: gpt-4o
+  temperature: 0
+  max_tokens: 16
+
+evaluation:
+  metrics: [accuracy]

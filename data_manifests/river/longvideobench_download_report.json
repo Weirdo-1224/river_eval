@@ -1,0 +1,50 @@
+{
+  "manifest": "data_manifests/river/longvideobench.jsonl",
+  "output_dir": "data/videos/RIVER/LongVideoBench",
+  "workers": 2,
+  "dry_run": false,
+  "processed": 5,
+  "failed": 2,
+  "items": [
+    {
+      "video_id": "KTY9bogonyw",
+      "output_path": "data/videos/RIVER/LongVideoBench/KTY9bogonyw.mp4",
+      "status": "exists",
+      "duration_sec": 2617.608707
+    },
+    {
+      "video_id": "2W2ZkYARds4",
+      "output_path": "data/videos/RIVER/LongVideoBench/2W2ZkYARds4.mp4",
+      "status": "exists",
+      "duration_sec": 3024.956372
+    },
+    {
+      "video_id": "UO_6TQnnOxM",
+      "output_path": "data/videos/RIVER/LongVideoBench/UO_6TQnnOxM.mp4",
+      "status": "exists",
+      "duration_sec": 3574.01542
+    },
+    {
+      "video_id": "duxO1EZ650E",
+      "output_path": "data/videos/RIVER/LongVideoBench/duxO1EZ650E.mp4",
+      "status": "exists",
+      "duration_sec": 2066.575964
+    },
+    {
+      "video_id": "vVRC-0VKPrg",
+      "output_path": "data/videos/RIVER/LongVideoBench/vVRC-0VKPrg.mp4",
+      "status": "exists",
+      "duration_sec": 2354.851701
+    }
+  ],
+  "failed_items": [
+    {
+      "video_id": "NAJOZTNkhlI",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--file-access-retries', '3', '--socket-timeout', '30', '--concurrent-fragments', '1', '-o', 'data/videos/RIVER/LongVideoBench/NAJOZTNkhlI.%(ext)s', 'https://www.youtube.com/watch?v=NAJOZTNkhlI']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "b__dUom9AcQ",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--file-access-retries', '3', '--socket-timeout', '30', '--concurrent-fragments', '1', '-o', 'data/videos/RIVER/LongVideoBench/b__dUom9AcQ.%(ext)s', 'https://www.youtube.com/watch?v=b__dUom9AcQ']' returned non-zero exit status 1."
+    }
+  ]
+}

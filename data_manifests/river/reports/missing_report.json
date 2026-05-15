@@ -1,0 +1,1101 @@
+{
+  "manifest_missing_from_annotations": [],
+  "annotations_missing_from_manifest": [],
+  "task_mismatches": [],
+  "duplicate_source_video_ids": [],
+  "duplicate_video_ids_across_sources": [
+    {
+      "video_id": "023bf95e-28de-43b4-a43f-720edba667a5",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "029b759d-4b65-49bb-8640-80a2ce5dfd53",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "053ca9bc-4822-4573-b04e-aea0c1ae97df",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "083b7556-9dff-40e2-9fad-bef3f82dbf37",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "0d2231f9-d67a-4df0-b36f-40cbf374ed03",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "0d270946-95c5-4e71-ae49-b9e802548147",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "10a04147-ae19-4c5e-b13b-b0b7005938a2",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "115774b6-534d-444f-b7aa-d1b834eb0ee7",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "12946f28-5f4a-4ba5-8296-c08cbeeca501",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "145881ef-5578-460d-bb5a-6fb80ef7d457",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "14f223fb-e812-49b6-9758-5b312df21d5c",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "155f8d74-4c5c-4821-a18b-fceaa9c6199c",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "174bee0b-b5d6-4e22-b81d-048005ae6ba6",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "18a3840b-7463-43c4-9aa9-b1d8e486fa84",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "18a3bd90-78c3-429a-b92e-614d58a849b9",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "1a58c3e1-e04c-40eb-974b-379773a18736",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "1d920f78-73d0-4323-b8b1-be51d27a69a7",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "1de259f4-6130-4c10-a83c-e2a6b78c9d34",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "1e5bd816-e1dd-43d3-8709-42c83114dc7c",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "1ea5b82f-85ab-4b05-8c55-9cc9ce9b542a",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "1f216b72-21a2-4463-b5ae-13bffd779b4d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "210b5b51-6dae-43b2-9cf8-28e04a785f18",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "2182b74b-52fe-4607-a9cd-d162a6c9d952",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "245cde61-d0a0-49c8-840d-e484b5f71a04",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "25e093a8-86d5-47e9-b09f-5a8afef85b74",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "25f88143-835a-4ac9-9272-eada5dbb8440",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "292af6ad-aeac-453b-bc59-cdafa981dbfd",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "2978ddbc-cdc9-4bfa-9a7c-4bf056904010",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "2a2ff7db-5460-4296-a8a7-946ba628226d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "2dbdd409-0be0-447c-8ae8-3f107fe9af80",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "2e877d35-66d2-4dff-b9e0-d164ddff4315",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "2fd1837a-613b-48af-9ad2-0222f8fd6b69",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "30805f57-8f23-4d41-91a0-19d248a62c1d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "339442c2-7d71-4c1e-821c-b955bdd31f44",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "342c7d2a-509b-4a35-83d3-0dd14c58a4da",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "3534864b-2289-4aaf-b3ed-10eeeee7acd2",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "35d92405-7ebf-4e54-8b9a-7cce8af30a79",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "36248b1e-9ba7-4789-bbf5-b9e33e3ab408",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "363b5839-a7c3-4c2e-b966-9530e38045a1",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "36c093d9-dbff-4fdd-bbc4-5302ae13415a",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "37d183ce-ba64-4ad2-8a54-ae2fb791fd38",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "38737402-19bd-4689-9e74-3af391b15feb",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "3a580dc3-93c0-44ef-9328-be6f65214def",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "3e4ffe07-a54f-42b6-9a0b-b093adad26e8",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "3ee7070a-fe81-49a9-97a2-902268af9985",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "413fe086-1745-4573-b75b-e7d26ff72df9",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "4480f4ee-d218-41bd-8cdf-a7cbe13b61a0",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "45f1d2bf-9243-4903-b42d-742cc8b57299",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "477feff8-a1ff-4f43-b726-273ca0fa47e9",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "4ce119de-0f42-4bd1-b387-9e19643fdddc",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "4d89d233-dbcf-4ea2-a90f-9a2c3b42d1d5",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "516c9abc-dbf3-4f87-b78e-db0ab9d657ea",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "52b99e0c-0f75-43fd-abbb-84ae2389c9c4",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "530dd2a8-462c-450b-9f38-1dfff28f139e",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "53da674a-089d-428a-a719-e322b2de002b",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "54843f87-c3c1-40a3-910e-5e72540995d5",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "570fc280-231c-4a3e-99c2-12eefed1c122",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "571265e5-c7b7-4313-9386-fa8655b23706",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "57e88d87-257e-434d-953e-6025367e99fe",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "5935de98-30c0-4357-9e89-1c1395c1e2c1",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "5aa3cd50-4925-4a1a-a8d5-2e18af017660",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "5b97f47f-f015-46f3-8879-3fcc2a61a728",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "5c0cd8bd-21ae-4e5b-91ed-b3142af3c50f",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "5f7e3f1e-f4db-461e-8344-c8f130985635",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "60209262-ab8e-4214-a8dd-4764a9a4b26d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "603ecf93-d2c1-4611-a690-76afd18935c8",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "6269fa52-58af-46d3-9a4b-7aca66c3b622",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "6511b790-f6a7-4cc4-a855-41bb2cb1d1fa",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "65c16752-c157-4a21-9654-d980f8fdf36c",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "66a0900b-069d-48bf-9071-f4e659f8a9d0",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "67a4a7c2-d7be-4776-8764-1cca425965b7",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "6b91041f-bd60-4738-8305-46b144ce725d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "6d3939f5-5636-43c7-94bb-86318392bd2d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "6f4b36d7-457b-4bac-a4fd-009f6d6d886d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "71dab71c-1aed-4467-9206-75ebecfc91cc",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "73803873-303f-484c-b647-0b6dd8f6c1c3",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "74736d57-1b15-4bad-9392-7b1b4ac39617",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "775acd8e-086f-48cf-adf3-c154f0d0bd2d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "7b3bea48-bd62-46b7-888d-2cc6e4bbd11b",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "7b696849-45f1-460f-a550-d70dc212e8b7",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "7d6d6cae-0601-485d-b900-482b4254e9f8",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "7ddbf8a2-5b3e-44cd-b9dc-db17ec06831b",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "7e512589-aa97-41e8-83d3-af2e83e4fd06",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "7f1b26ab-ffc6-40c3-9cb3-572311ccf0d9",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "805989f6-0696-4de2-ad9b-0f194e0ac48d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "858c1362-b0e9-4281-9200-a3abc6c524ba",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "8672b38a-7682-4244-ad7a-a336c81c2d0e",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "884ac72b-4360-43cb-a62c-ee5822b07bf1",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "89af735b-7c13-4366-befe-efd6cd5402ff",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "8a280483-bbfd-4f24-9654-bf6a008e406d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "8c1b30cd-f67f-479a-b723-7367528ccb8e",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "8cf7f552-c1df-4482-8c0d-db17d098bf02",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "8d84ee2b-5dcb-4311-9769-a52e7b68d9e1",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "8e1655e6-70dd-4280-943c-5d892867495e",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "90a0cc01-f498-490a-bda1-01ad94db2946",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "913b4f05-ec61-409a-bdef-f3c1cc0f6ae0",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "972f2966-c368-4344-a9ca-5bd8a277f177",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "975427a5-9d66-4bf6-aa94-1266297cc5e6",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "9f28e782-417c-4c8b-a7ae-42fc96a0e94f",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "a13a145f-920a-44ec-8aef-b489c097f4a7",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "a330bb33-7cef-48d8-81e8-e0abd9fd0896",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "a4728450-c05c-4d51-91e4-348f571d74bc",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "a84b3599-88ba-4bbd-8be3-c0051e8d811f",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "aa14c20d-cadf-4393-935f-52175427539d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "adadb102-d199-4a46-a337-ab97997c9224",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "ae7b6096-4f00-42af-857d-603c2cbfa940",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "af2bbd78-1898-4744-aa62-4feea65cc825",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "b493e8e3-4e18-4480-8e63-c21e25bf99f7",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "b700aae8-8350-44fe-be4c-cba85514aec0",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "bb2297d3-91b7-4ec4-b39b-cc64694929db",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "bbd117a9-e969-4e15-9840-70101a864dd5",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "bc3d4b3a-7261-44aa-9bc2-df6d2584069a",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "bd0d69c1-a6e5-4e02-9835-9b9cfcc0c2f6",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "becc10aa-e78b-43d8-9b43-98eaf9e54008",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "bf6e4f01-7891-42fe-9b52-1b5033379b44",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "c1de2606-7fd1-48e5-8b23-2bbbeff56fd7",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "c3065f43-abc1-4868-84fd-3f937010fd17",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "c3b19085-f7eb-4217-8eec-b8cc056f92a1",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "c5938442-90c1-413c-be06-186222d8274f",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "c67224bc-cc1d-48fb-8a95-90e544038217",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "c6a42d6b-5fb0-4829-92e0-40ed1bef6f8a",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "c6da6ceb-5f40-436b-8c83-76458f46b3fb",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "c8e1a3d0-517b-4553-9621-e14776992fde",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "c97c63b8-9130-4277-868f-6fa7a8ef0e43",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "c9932108-4869-4de7-999c-a5b6291b1d6c",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "cca1ae5d-4528-47e9-91c9-282d88f53680",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "cce95cd8-188e-4d6b-996f-07f58fc9d117",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "cd8282c8-528e-4da8-97d2-2987ca818ff0",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "d0230ced-05b0-4cf0-93cb-e5ba78f36047",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "d2de811c-9255-4c4f-8a54-a2fc65527f59",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "d61475bb-fd97-43e3-8b7d-a242064a9d10",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "d731d55b-a67c-498e-9016-2758185a2553",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "db00b25c-2900-4e86-89c7-d23bc96d46df",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "db92ffad-21ff-4cf4-bd2e-e0630faf7ae1",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "dc6c33a2-49ca-4046-bbce-34422b8b7836",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "e0c4d2c7-fd50-4c50-b40e-e1eda4a5708b",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "e191e0de-e570-4925-9cbb-e05fe1132a47",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "e6f1accd-e18d-43ec-b854-e7633b15cbf7",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "e7cda49b-1c03-4d74-a759-c2eeb96465b4",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "e98dd5f7-e90e-484e-b8ae-9a180882a26d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "eb0d2a52-678c-4e23-8d6c-3c7a4fd86098",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "eb486644-f46f-44cf-8e4b-73245b2fc02e",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "ecb608ac-6443-46d4-9025-1300c456b8c8",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "ecc633d2-72b5-4bd0-a6a1-f1cedb21d757",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "eda62dbd-2dfa-4587-ac9d-130702644ce5",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "ee401f80-7732-4f67-a9bb-0c1e58b40b84",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "eea4b231-055e-4c4e-8f95-8dd043601da6",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "eff9a4e2-a2ab-45d4-a142-64a9aa4fc6e9",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "f20bca30-b7f0-4d2f-92ae-3982602f05df",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "f40e0f92-2250-46c9-98a0-8ccf23d164e0",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "f5778003-9aea-4ca0-9398-69299ba0331c",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "f5c456b2-b998-4f42-82bd-786833fb3891",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "f6a0d8f5-468d-4e47-bfca-e7d13b75f26d",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "fb7cc35d-3272-44a4-b8f2-15cd24fa345b",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    },
+    {
+      "video_id": "ff6d3d52-dda5-46dd-8515-b9b772933030",
+      "video_sources": [
+        "Ego-Ego4D-Narration-Val",
+        "Ego4D-Narration-Val"
+      ]
+    }
+  ],
+  "qvhighlights_parse_errors": []
+}

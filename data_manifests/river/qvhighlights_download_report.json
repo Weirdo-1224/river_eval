@@ -1,0 +1,2037 @@
+{
+  "clips": "data_manifests/river/qvhighlights_clips.jsonl",
+  "raw_dir": "data/raw/QVHighlights",
+  "output_dir": "data/videos/RIVER/QVHighlights-Val",
+  "ytdlp": "/home/xiezitao/workspace/RIVER/bin/yt-dlp",
+  "ffmpeg": "/home/xiezitao/workspace/RIVER/bin/ffmpeg",
+  "ffprobe": "/home/xiezitao/workspace/RIVER/bin/ffprobe",
+  "dry_run": false,
+  "cache_full_videos": false,
+  "workers": 2,
+  "processed": 250,
+  "failed": 104,
+  "items": [
+    {
+      "video_id": "-4Mlqc7PbZY_510.0_660.0",
+      "youtube_id": "-4Mlqc7PbZY",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/-4Mlqc7PbZY_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "-_s0sXOfS3w_60.0_210.0",
+      "youtube_id": "-_s0sXOfS3w",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/-_s0sXOfS3w_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "00DH3yn5C30_360.0_510.0",
+      "youtube_id": "00DH3yn5C30",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/00DH3yn5C30_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "00DH3yn5C30_510.0_660.0",
+      "youtube_id": "00DH3yn5C30",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/00DH3yn5C30_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "00DH3yn5C30_660.0_810.0",
+      "youtube_id": "00DH3yn5C30",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/00DH3yn5C30_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "0U3-7Ey3siA_210.0_360.0",
+      "youtube_id": "0U3-7Ey3siA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/0U3-7Ey3siA_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "13U4xVzZFQ8_360.0_510.0",
+      "youtube_id": "13U4xVzZFQ8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/13U4xVzZFQ8_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "13U4xVzZFQ8_60.0_210.0",
+      "youtube_id": "13U4xVzZFQ8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/13U4xVzZFQ8_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "2BzoQ31IPhk_60.0_210.0",
+      "youtube_id": "2BzoQ31IPhk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/2BzoQ31IPhk_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "2iW3ei-5fpE_360.0_510.0",
+      "youtube_id": "2iW3ei-5fpE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/2iW3ei-5fpE_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "2vFzBa_WKNg_60.0_210.0",
+      "youtube_id": "2vFzBa_WKNg",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/2vFzBa_WKNg_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "2vFzBa_WKNg_660.0_810.0",
+      "youtube_id": "2vFzBa_WKNg",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/2vFzBa_WKNg_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "39AFfSOXl-8_210.0_360.0",
+      "youtube_id": "39AFfSOXl-8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/39AFfSOXl-8_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "3Bk5MJEo2EA_360.0_510.0",
+      "youtube_id": "3Bk5MJEo2EA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/3Bk5MJEo2EA_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "3Bk5MJEo2EA_510.0_660.0",
+      "youtube_id": "3Bk5MJEo2EA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/3Bk5MJEo2EA_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "3Bk5MJEo2EA_660.0_810.0",
+      "youtube_id": "3Bk5MJEo2EA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/3Bk5MJEo2EA_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "3UPP_WRL86c_60.0_210.0",
+      "youtube_id": "3UPP_WRL86c",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/3UPP_WRL86c_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "4bCnOd17KNM_210.0_360.0",
+      "youtube_id": "4bCnOd17KNM",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/4bCnOd17KNM_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "5BGa1HJslJA_210.0_360.0",
+      "youtube_id": "5BGa1HJslJA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/5BGa1HJslJA_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "5JOEKQhV1UA_360.0_510.0",
+      "youtube_id": "5JOEKQhV1UA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/5JOEKQhV1UA_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "5oucQKLn88A_210.0_360.0",
+      "youtube_id": "5oucQKLn88A",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/5oucQKLn88A_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "5oucQKLn88A_60.0_210.0",
+      "youtube_id": "5oucQKLn88A",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/5oucQKLn88A_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "6Mzo1y19iTU_360.0_510.0",
+      "youtube_id": "6Mzo1y19iTU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/6Mzo1y19iTU_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "6OV8g7JkMvg_60.0_210.0",
+      "youtube_id": "6OV8g7JkMvg",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/6OV8g7JkMvg_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "6aFvTqmnrJQ_210.0_360.0",
+      "youtube_id": "6aFvTqmnrJQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/6aFvTqmnrJQ_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "6aFvTqmnrJQ_510.0_660.0",
+      "youtube_id": "6aFvTqmnrJQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/6aFvTqmnrJQ_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "6gmGISTKDPw_360.0_510.0",
+      "youtube_id": "6gmGISTKDPw",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/6gmGISTKDPw_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "71Fa81Wr-dE_210.0_360.0",
+      "youtube_id": "71Fa81Wr-dE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/71Fa81Wr-dE_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "71Fa81Wr-dE_660.0_810.0",
+      "youtube_id": "71Fa81Wr-dE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/71Fa81Wr-dE_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "8CCyShsFArg_360.0_510.0",
+      "youtube_id": "8CCyShsFArg",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/8CCyShsFArg_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "8s9fLWEi4So_210.0_360.0",
+      "youtube_id": "8s9fLWEi4So",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/8s9fLWEi4So_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "8xJSEwLPhN8_360.0_510.0",
+      "youtube_id": "8xJSEwLPhN8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/8xJSEwLPhN8_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "8xJSEwLPhN8_60.0_210.0",
+      "youtube_id": "8xJSEwLPhN8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/8xJSEwLPhN8_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "9Xzrtwiint4_510.0_660.0",
+      "youtube_id": "9Xzrtwiint4",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/9Xzrtwiint4_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "9kF-Rw5PrDY_360.0_510.0",
+      "youtube_id": "9kF-Rw5PrDY",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/9kF-Rw5PrDY_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "A0JmK8Dwv3Q_60.0_210.0",
+      "youtube_id": "A0JmK8Dwv3Q",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/A0JmK8Dwv3Q_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "A5PIgmXGIdI_510.0_660.0",
+      "youtube_id": "A5PIgmXGIdI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/A5PIgmXGIdI_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "A5PIgmXGIdI_60.0_210.0",
+      "youtube_id": "A5PIgmXGIdI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/A5PIgmXGIdI_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "A5PIgmXGIdI_660.0_810.0",
+      "youtube_id": "A5PIgmXGIdI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/A5PIgmXGIdI_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "A6U90Hon6bE_210.0_360.0",
+      "youtube_id": "A6U90Hon6bE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/A6U90Hon6bE_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "3fESWnyZC0o_360.0_510.0",
+      "youtube_id": "3fESWnyZC0o",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/3fESWnyZC0o_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "AVErftnrqwY_510.0_660.0",
+      "youtube_id": "AVErftnrqwY",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/AVErftnrqwY_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "AW6IgzeMjpE_60.0_210.0",
+      "youtube_id": "AW6IgzeMjpE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/AW6IgzeMjpE_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "AWoPkPjhxSo_360.0_510.0",
+      "youtube_id": "AWoPkPjhxSo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/AWoPkPjhxSo_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "CPdeKuaTMoU_60.0_210.0",
+      "youtube_id": "CPdeKuaTMoU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/CPdeKuaTMoU_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "CXTWqVz5rhY_510.0_660.0",
+      "youtube_id": "CXTWqVz5rhY",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/CXTWqVz5rhY_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "CXTWqVz5rhY_660.0_810.0",
+      "youtube_id": "CXTWqVz5rhY",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/CXTWqVz5rhY_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Ci4jrBQXtTI_360.0_510.0",
+      "youtube_id": "Ci4jrBQXtTI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Ci4jrBQXtTI_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "DLSkojSiAPs_210.0_360.0",
+      "youtube_id": "DLSkojSiAPs",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/DLSkojSiAPs_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "DLSkojSiAPs_360.0_510.0",
+      "youtube_id": "DLSkojSiAPs",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/DLSkojSiAPs_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "DLSkojSiAPs_510.0_660.0",
+      "youtube_id": "DLSkojSiAPs",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/DLSkojSiAPs_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "DLSkojSiAPs_60.0_210.0",
+      "youtube_id": "DLSkojSiAPs",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/DLSkojSiAPs_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "DTh3uCDtres_210.0_360.0",
+      "youtube_id": "DTh3uCDtres",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/DTh3uCDtres_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "E6yFTWlChmE_360.0_510.0",
+      "youtube_id": "E6yFTWlChmE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/E6yFTWlChmE_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "E6yFTWlChmE_660.0_810.0",
+      "youtube_id": "E6yFTWlChmE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/E6yFTWlChmE_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Ehpo8gXg27I_60.0_210.0",
+      "youtube_id": "Ehpo8gXg27I",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Ehpo8gXg27I_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "EriqfBlZe5Y_210.0_360.0",
+      "youtube_id": "EriqfBlZe5Y",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/EriqfBlZe5Y_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "AVErftnrqwY_660.0_810.0",
+      "youtube_id": "AVErftnrqwY",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/AVErftnrqwY_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "EriqfBlZe5Y_660.0_810.0",
+      "youtube_id": "EriqfBlZe5Y",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/EriqfBlZe5Y_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "FL0Cos34RjU_360.0_510.0",
+      "youtube_id": "FL0Cos34RjU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/FL0Cos34RjU_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "FXULtwAVFqQ_360.0_510.0",
+      "youtube_id": "FXULtwAVFqQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/FXULtwAVFqQ_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "FaF3OJ5e_vE_510.0_660.0",
+      "youtube_id": "FaF3OJ5e_vE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/FaF3OJ5e_vE_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "FaF3OJ5e_vE_60.0_210.0",
+      "youtube_id": "FaF3OJ5e_vE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/FaF3OJ5e_vE_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "FbUT42sj_os_60.0_210.0",
+      "youtube_id": "FbUT42sj_os",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/FbUT42sj_os_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "FoykgiUvtiE_60.0_210.0",
+      "youtube_id": "FoykgiUvtiE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/FoykgiUvtiE_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "EriqfBlZe5Y_60.0_210.0",
+      "youtube_id": "EriqfBlZe5Y",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/EriqfBlZe5Y_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "GAUdBAL0K5A_60.0_210.0",
+      "youtube_id": "GAUdBAL0K5A",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/GAUdBAL0K5A_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "H3fhZxUC5M8_360.0_510.0",
+      "youtube_id": "H3fhZxUC5M8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/H3fhZxUC5M8_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "H3fhZxUC5M8_660.0_810.0",
+      "youtube_id": "H3fhZxUC5M8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/H3fhZxUC5M8_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Ho_5YisGHyU_360.0_510.0",
+      "youtube_id": "Ho_5YisGHyU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Ho_5YisGHyU_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Ho_5YisGHyU_660.0_810.0",
+      "youtube_id": "Ho_5YisGHyU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Ho_5YisGHyU_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "HpO-sV7TSSk_60.0_210.0",
+      "youtube_id": "HpO-sV7TSSk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/HpO-sV7TSSk_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "IAbAn-MkMH8_60.0_210.0",
+      "youtube_id": "IAbAn-MkMH8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/IAbAn-MkMH8_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "IdpHJK90VDw_660.0_810.0",
+      "youtube_id": "IdpHJK90VDw",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/IdpHJK90VDw_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "JlWjckrziyw_60.0_210.0",
+      "youtube_id": "JlWjckrziyw",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/JlWjckrziyw_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Jz1Cszaqck0_510.0_660.0",
+      "youtube_id": "Jz1Cszaqck0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Jz1Cszaqck0_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "K3lDAtwYt_4_60.0_210.0",
+      "youtube_id": "K3lDAtwYt_4",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/K3lDAtwYt_4_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "KQyJtq52Jcw_60.0_210.0",
+      "youtube_id": "KQyJtq52Jcw",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/KQyJtq52Jcw_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "KRHEqswrh9I_510.0_660.0",
+      "youtube_id": "KRHEqswrh9I",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/KRHEqswrh9I_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Kuq50cVSFbw_360.0_510.0",
+      "youtube_id": "Kuq50cVSFbw",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Kuq50cVSFbw_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "L9cUEhaXnK4_660.0_810.0",
+      "youtube_id": "L9cUEhaXnK4",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/L9cUEhaXnK4_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "L_RuElxOqKI_60.0_210.0",
+      "youtube_id": "L_RuElxOqKI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/L_RuElxOqKI_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "LcKnx7I97yk_60.0_210.0",
+      "youtube_id": "LcKnx7I97yk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/LcKnx7I97yk_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "M0aeShHuNvg_360.0_510.0",
+      "youtube_id": "M0aeShHuNvg",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/M0aeShHuNvg_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "M2LGcH3S_ok_360.0_510.0",
+      "youtube_id": "M2LGcH3S_ok",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/M2LGcH3S_ok_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "M2MuFhHSfIU_360.0_510.0",
+      "youtube_id": "M2MuFhHSfIU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/M2MuFhHSfIU_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "MmGtg0qgceA_210.0_360.0",
+      "youtube_id": "MmGtg0qgceA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/MmGtg0qgceA_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "MmGtg0qgceA_360.0_510.0",
+      "youtube_id": "MmGtg0qgceA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/MmGtg0qgceA_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "NM0rYteX0DU_360.0_510.0",
+      "youtube_id": "NM0rYteX0DU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/NM0rYteX0DU_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Nhelnhenn1w_60.0_210.0",
+      "youtube_id": "Nhelnhenn1w",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Nhelnhenn1w_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Nhelnhenn1w_660.0_810.0",
+      "youtube_id": "Nhelnhenn1w",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Nhelnhenn1w_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "NzyjaMWxNrU_60.0_210.0",
+      "youtube_id": "NzyjaMWxNrU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/NzyjaMWxNrU_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "O5RKn-qeIVI_210.0_360.0",
+      "youtube_id": "O5RKn-qeIVI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/O5RKn-qeIVI_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "O5RKn-qeIVI_360.0_510.0",
+      "youtube_id": "O5RKn-qeIVI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/O5RKn-qeIVI_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "OR7oOU8S7Jc_360.0_510.0",
+      "youtube_id": "OR7oOU8S7Jc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/OR7oOU8S7Jc_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "OR7oOU8S7Jc_660.0_810.0",
+      "youtube_id": "OR7oOU8S7Jc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/OR7oOU8S7Jc_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "PMm8xTk8ofI_60.0_210.0",
+      "youtube_id": "PMm8xTk8ofI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/PMm8xTk8ofI_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "PWdPLZvdO_I_210.0_360.0",
+      "youtube_id": "PWdPLZvdO_I",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/PWdPLZvdO_I_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "PWdPLZvdO_I_360.0_510.0",
+      "youtube_id": "PWdPLZvdO_I",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/PWdPLZvdO_I_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Piw-9dOC8YQ_210.0_360.0",
+      "youtube_id": "Piw-9dOC8YQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Piw-9dOC8YQ_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Piw-9dOC8YQ_510.0_660.0",
+      "youtube_id": "Piw-9dOC8YQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Piw-9dOC8YQ_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "QQeXn_WIfQ8_660.0_810.0",
+      "youtube_id": "QQeXn_WIfQ8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/QQeXn_WIfQ8_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "RWvWkkCtjfY_60.0_210.0",
+      "youtube_id": "RWvWkkCtjfY",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/RWvWkkCtjfY_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "RoripwjYFp8_360.0_510.0",
+      "youtube_id": "RoripwjYFp8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/RoripwjYFp8_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Lc4D95BLgXI_60.0_210.0",
+      "youtube_id": "Lc4D95BLgXI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Lc4D95BLgXI_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "S4z8QOxZisc_360.0_510.0",
+      "youtube_id": "S4z8QOxZisc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/S4z8QOxZisc_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "SST7vk2qmCY_60.0_210.0",
+      "youtube_id": "SST7vk2qmCY",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/SST7vk2qmCY_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "T60_zAvnAsU_360.0_510.0",
+      "youtube_id": "T60_zAvnAsU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/T60_zAvnAsU_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "TJERhGzxRK8_210.0_360.0",
+      "youtube_id": "TJERhGzxRK8",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/TJERhGzxRK8_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "TQ0nr6gTX6w_660.0_810.0",
+      "youtube_id": "TQ0nr6gTX6w",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/TQ0nr6gTX6w_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "UCCqLmaF6n0_360.0_510.0",
+      "youtube_id": "UCCqLmaF6n0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/UCCqLmaF6n0_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "UDEfgewcr5E_60.0_210.0",
+      "youtube_id": "UDEfgewcr5E",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/UDEfgewcr5E_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "UPwSDYkpzlk_60.0_210.0",
+      "youtube_id": "UPwSDYkpzlk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/UPwSDYkpzlk_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "UaYhvOSmzNc_210.0_360.0",
+      "youtube_id": "UaYhvOSmzNc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/UaYhvOSmzNc_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "UaYhvOSmzNc_360.0_510.0",
+      "youtube_id": "UaYhvOSmzNc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/UaYhvOSmzNc_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "UaYhvOSmzNc_510.0_660.0",
+      "youtube_id": "UaYhvOSmzNc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/UaYhvOSmzNc_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "UaYhvOSmzNc_660.0_810.0",
+      "youtube_id": "UaYhvOSmzNc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/UaYhvOSmzNc_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Uale9QeyLMI_210.0_360.0",
+      "youtube_id": "Uale9QeyLMI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Uale9QeyLMI_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "UdiR9BWQKew_60.0_210.0",
+      "youtube_id": "UdiR9BWQKew",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/UdiR9BWQKew_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Upou7XP_KoM_210.0_360.0",
+      "youtube_id": "Upou7XP_KoM",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Upou7XP_KoM_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "VKKH07K1zbI_210.0_360.0",
+      "youtube_id": "VKKH07K1zbI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/VKKH07K1zbI_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "VUV77-5ERxA_510.0_660.0",
+      "youtube_id": "VUV77-5ERxA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/VUV77-5ERxA_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "VoK0IcmS_5I_210.0_360.0",
+      "youtube_id": "VoK0IcmS_5I",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/VoK0IcmS_5I_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "VoK0IcmS_5I_360.0_510.0",
+      "youtube_id": "VoK0IcmS_5I",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/VoK0IcmS_5I_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "W4FSEuEgG-E_60.0_210.0",
+      "youtube_id": "W4FSEuEgG-E",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/W4FSEuEgG-E_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "WEpnzfufxJQ_210.0_360.0",
+      "youtube_id": "WEpnzfufxJQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/WEpnzfufxJQ_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "WINZiMUH7Lk_60.0_210.0",
+      "youtube_id": "WINZiMUH7Lk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/WINZiMUH7Lk_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "WtAOsyldvJk_360.0_510.0",
+      "youtube_id": "WtAOsyldvJk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/WtAOsyldvJk_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "X0aUpT_eyTU_210.0_360.0",
+      "youtube_id": "X0aUpT_eyTU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/X0aUpT_eyTU_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "X0aUpT_eyTU_60.0_210.0",
+      "youtube_id": "X0aUpT_eyTU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/X0aUpT_eyTU_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "WBkLObX2Fdo_210.0_360.0",
+      "youtube_id": "WBkLObX2Fdo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/WBkLObX2Fdo_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "XpVt6Z1Gjjo_360.0_510.0",
+      "youtube_id": "XpVt6Z1Gjjo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/XpVt6Z1Gjjo_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "XrGXgtBnfoc_360.0_510.0",
+      "youtube_id": "XrGXgtBnfoc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/XrGXgtBnfoc_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "XzxRMH7G8Lk_210.0_360.0",
+      "youtube_id": "XzxRMH7G8Lk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/XzxRMH7G8Lk_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "YtRhf0LQ_cc_60.0_210.0",
+      "youtube_id": "YtRhf0LQ_cc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/YtRhf0LQ_cc_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Z2hmY5JrQmo_210.0_360.0",
+      "youtube_id": "Z2hmY5JrQmo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Z2hmY5JrQmo_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Z3-IZ3HAmIA_210.0_360.0",
+      "youtube_id": "Z3-IZ3HAmIA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Z3-IZ3HAmIA_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Z3-IZ3HAmIA_360.0_510.0",
+      "youtube_id": "Z3-IZ3HAmIA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Z3-IZ3HAmIA_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Z3-IZ3HAmIA_60.0_210.0",
+      "youtube_id": "Z3-IZ3HAmIA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Z3-IZ3HAmIA_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Z4hMlOIhjJ4_60.0_210.0",
+      "youtube_id": "Z4hMlOIhjJ4",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Z4hMlOIhjJ4_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Z8MR9i08l6g_360.0_510.0",
+      "youtube_id": "Z8MR9i08l6g",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Z8MR9i08l6g_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Z8MR9i08l6g_60.0_210.0",
+      "youtube_id": "Z8MR9i08l6g",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Z8MR9i08l6g_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "Y2GVVC_cD_E_210.0_360.0",
+      "youtube_id": "Y2GVVC_cD_E",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/Y2GVVC_cD_E_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "ZjFzkhrqIZs_210.0_360.0",
+      "youtube_id": "ZjFzkhrqIZs",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/ZjFzkhrqIZs_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "ZxHh_2YdmT4_360.0_510.0",
+      "youtube_id": "ZxHh_2YdmT4",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/ZxHh_2YdmT4_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "_NznSSfDxdo_210.0_360.0",
+      "youtube_id": "_NznSSfDxdo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/_NznSSfDxdo_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "_NznSSfDxdo_60.0_210.0",
+      "youtube_id": "_NznSSfDxdo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/_NznSSfDxdo_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "_e8_yuedv6w_510.0_660.0",
+      "youtube_id": "_e8_yuedv6w",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/_e8_yuedv6w_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "_ufoIeYZYjw_660.0_810.0",
+      "youtube_id": "_ufoIeYZYjw",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/_ufoIeYZYjw_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "a2KIsaS9iJg_360.0_510.0",
+      "youtube_id": "a2KIsaS9iJg",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/a2KIsaS9iJg_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "abRmll8VM9k_660.0_810.0",
+      "youtube_id": "abRmll8VM9k",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/abRmll8VM9k_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "aePha0zWX7c_210.0_360.0",
+      "youtube_id": "aePha0zWX7c",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/aePha0zWX7c_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "av5DZl8MvcQ_360.0_510.0",
+      "youtube_id": "av5DZl8MvcQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/av5DZl8MvcQ_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "bEmdM0Peb_o_360.0_510.0",
+      "youtube_id": "bEmdM0Peb_o",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/bEmdM0Peb_o_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "bTqMo5klaCE_210.0_360.0",
+      "youtube_id": "bTqMo5klaCE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/bTqMo5klaCE_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "bTqMo5klaCE_360.0_510.0",
+      "youtube_id": "bTqMo5klaCE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/bTqMo5klaCE_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "c-fzjF9ubUc_210.0_360.0",
+      "youtube_id": "c-fzjF9ubUc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/c-fzjF9ubUc_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "cLvULsyPH4E_210.0_360.0",
+      "youtube_id": "cLvULsyPH4E",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/cLvULsyPH4E_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "cLvULsyPH4E_510.0_660.0",
+      "youtube_id": "cLvULsyPH4E",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/cLvULsyPH4E_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "cpkXphR7tVo_210.0_360.0",
+      "youtube_id": "cpkXphR7tVo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/cpkXphR7tVo_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "czN-9IsQXoU_360.0_510.0",
+      "youtube_id": "czN-9IsQXoU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/czN-9IsQXoU_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "eBFyZ-JI_1s_60.0_210.0",
+      "youtube_id": "eBFyZ-JI_1s",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/eBFyZ-JI_1s_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "eX-EpPDjlUs_210.0_360.0",
+      "youtube_id": "eX-EpPDjlUs",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/eX-EpPDjlUs_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "eX-EpPDjlUs_360.0_510.0",
+      "youtube_id": "eX-EpPDjlUs",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/eX-EpPDjlUs_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "efCSWDWjm6g_210.0_360.0",
+      "youtube_id": "efCSWDWjm6g",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/efCSWDWjm6g_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "efCSWDWjm6g_360.0_510.0",
+      "youtube_id": "efCSWDWjm6g",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/efCSWDWjm6g_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "g614xfyWKoE_660.0_810.0",
+      "youtube_id": "g614xfyWKoE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/g614xfyWKoE_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "g6cmukMZBug_60.0_210.0",
+      "youtube_id": "g6cmukMZBug",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/g6cmukMZBug_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "gDgMQI6q448_210.0_360.0",
+      "youtube_id": "gDgMQI6q448",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/gDgMQI6q448_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "gHFQWFXfRgQ_60.0_210.0",
+      "youtube_id": "gHFQWFXfRgQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/gHFQWFXfRgQ_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "gTAvxnQtjXM_60.0_210.0",
+      "youtube_id": "gTAvxnQtjXM",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/gTAvxnQtjXM_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "gpDpN44mky0_60.0_210.0",
+      "youtube_id": "gpDpN44mky0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/gpDpN44mky0_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "h6sCcWcLU7A_210.0_360.0",
+      "youtube_id": "h6sCcWcLU7A",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/h6sCcWcLU7A_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "hYGAJNV6eYY_60.0_210.0",
+      "youtube_id": "hYGAJNV6eYY",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/hYGAJNV6eYY_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "h_XoA5-_8W0_510.0_660.0",
+      "youtube_id": "h_XoA5-_8W0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/h_XoA5-_8W0_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "h_XoA5-_8W0_660.0_810.0",
+      "youtube_id": "h_XoA5-_8W0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/h_XoA5-_8W0_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "hYGAJNV6eYY_210.0_360.0",
+      "youtube_id": "hYGAJNV6eYY",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/hYGAJNV6eYY_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "hl_ErejT_CE_360.0_510.0",
+      "youtube_id": "hl_ErejT_CE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/hl_ErejT_CE_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "hm4l6e_V-hQ_210.0_360.0",
+      "youtube_id": "hm4l6e_V-hQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/hm4l6e_V-hQ_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "hl_ErejT_CE_510.0_660.0",
+      "youtube_id": "hl_ErejT_CE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/hl_ErejT_CE_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "iD6VPW7oJ_I_210.0_360.0",
+      "youtube_id": "iD6VPW7oJ_I",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/iD6VPW7oJ_I_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "iQ0io56PejM_510.0_660.0",
+      "youtube_id": "iQ0io56PejM",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/iQ0io56PejM_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "iQ0io56PejM_60.0_210.0",
+      "youtube_id": "iQ0io56PejM",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/iQ0io56PejM_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "idvZpkYWOMQ_360.0_510.0",
+      "youtube_id": "idvZpkYWOMQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/idvZpkYWOMQ_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "idvZpkYWOMQ_510.0_660.0",
+      "youtube_id": "idvZpkYWOMQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/idvZpkYWOMQ_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "hpcc5pGNKZk_510.0_660.0",
+      "youtube_id": "hpcc5pGNKZk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/hpcc5pGNKZk_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "ioWAoEVYaP0_210.0_360.0",
+      "youtube_id": "ioWAoEVYaP0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/ioWAoEVYaP0_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "j9NNAmqweOA_510.0_660.0",
+      "youtube_id": "j9NNAmqweOA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/j9NNAmqweOA_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "j9NNAmqweOA_60.0_210.0",
+      "youtube_id": "j9NNAmqweOA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/j9NNAmqweOA_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "jdQ_zQJD0I4_210.0_360.0",
+      "youtube_id": "jdQ_zQJD0I4",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/jdQ_zQJD0I4_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "jdQ_zQJD0I4_360.0_510.0",
+      "youtube_id": "jdQ_zQJD0I4",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/jdQ_zQJD0I4_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "jyHSYDfqPnU_60.0_210.0",
+      "youtube_id": "jyHSYDfqPnU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/jyHSYDfqPnU_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "j9NNAmqweOA_210.0_360.0",
+      "youtube_id": "j9NNAmqweOA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/j9NNAmqweOA_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "kPXnelu5wZk_210.0_360.0",
+      "youtube_id": "kPXnelu5wZk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/kPXnelu5wZk_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "kE-LxJdtTT0_210.0_360.0",
+      "youtube_id": "kE-LxJdtTT0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/kE-LxJdtTT0_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "kPXnelu5wZk_60.0_210.0",
+      "youtube_id": "kPXnelu5wZk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/kPXnelu5wZk_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "kY4Jm68gg38_360.0_510.0",
+      "youtube_id": "kY4Jm68gg38",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/kY4Jm68gg38_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "kv3NheAKyb0_510.0_660.0",
+      "youtube_id": "kv3NheAKyb0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/kv3NheAKyb0_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "mEqAtcljxHc_60.0_210.0",
+      "youtube_id": "mEqAtcljxHc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/mEqAtcljxHc_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "kY4Jm68gg38_60.0_210.0",
+      "youtube_id": "kY4Jm68gg38",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/kY4Jm68gg38_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "m_-A8xoc1Oo_660.0_810.0",
+      "youtube_id": "m_-A8xoc1Oo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/m_-A8xoc1Oo_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "m_-A8xoc1Oo_60.0_210.0",
+      "youtube_id": "m_-A8xoc1Oo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/m_-A8xoc1Oo_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "mbdj8xfSIKo_60.0_210.0",
+      "youtube_id": "mbdj8xfSIKo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/mbdj8xfSIKo_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "mpVKDcu6R5Y_360.0_510.0",
+      "youtube_id": "mpVKDcu6R5Y",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/mpVKDcu6R5Y_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "mpVKDcu6R5Y_510.0_660.0",
+      "youtube_id": "mpVKDcu6R5Y",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/mpVKDcu6R5Y_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "nJUP36AmrSM_510.0_660.0",
+      "youtube_id": "nJUP36AmrSM",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/nJUP36AmrSM_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "nkgTGB5C7zk_360.0_510.0",
+      "youtube_id": "nkgTGB5C7zk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/nkgTGB5C7zk_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "ngen9r1T-5w_60.0_210.0",
+      "youtube_id": "ngen9r1T-5w",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/ngen9r1T-5w_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "pA6Z-qYhSNg_210.0_360.0",
+      "youtube_id": "pA6Z-qYhSNg",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/pA6Z-qYhSNg_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "nkgTGB5C7zk_60.0_210.0",
+      "youtube_id": "nkgTGB5C7zk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/nkgTGB5C7zk_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "pA6Z-qYhSNg_60.0_210.0",
+      "youtube_id": "pA6Z-qYhSNg",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/pA6Z-qYhSNg_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "pWtzuphf8nc_210.0_360.0",
+      "youtube_id": "pWtzuphf8nc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/pWtzuphf8nc_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "pu5p_ojK6BI_360.0_510.0",
+      "youtube_id": "pu5p_ojK6BI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/pu5p_ojK6BI_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "pWtzuphf8nc_60.0_210.0",
+      "youtube_id": "pWtzuphf8nc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/pWtzuphf8nc_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "q4WEUoz2wHc_210.0_360.0",
+      "youtube_id": "q4WEUoz2wHc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/q4WEUoz2wHc_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "qBe1PUrRHUo_360.0_510.0",
+      "youtube_id": "qBe1PUrRHUo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/qBe1PUrRHUo_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "qBe1PUrRHUo_510.0_660.0",
+      "youtube_id": "qBe1PUrRHUo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/qBe1PUrRHUo_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "qBe1PUrRHUo_60.0_210.0",
+      "youtube_id": "qBe1PUrRHUo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/qBe1PUrRHUo_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "qHSeudOaXwk_210.0_360.0",
+      "youtube_id": "qHSeudOaXwk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/qHSeudOaXwk_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "qaDShOiRe-0_510.0_660.0",
+      "youtube_id": "qaDShOiRe-0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/qaDShOiRe-0_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "qHSeudOaXwk_360.0_510.0",
+      "youtube_id": "qHSeudOaXwk",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/qHSeudOaXwk_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "rwvwrgx9cTo_210.0_360.0",
+      "youtube_id": "rwvwrgx9cTo",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/rwvwrgx9cTo_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "ruYn5dOkIyI_210.0_360.0",
+      "youtube_id": "ruYn5dOkIyI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/ruYn5dOkIyI_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "ssopBo-qfso_60.0_210.0",
+      "youtube_id": "ssopBo-qfso",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/ssopBo-qfso_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "t9podLZljz0_60.0_210.0",
+      "youtube_id": "t9podLZljz0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/t9podLZljz0_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "uPPb8CxB6-o_210.0_360.0",
+      "youtube_id": "uPPb8CxB6-o",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/uPPb8CxB6-o_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "uSAGSbauHBs_60.0_210.0",
+      "youtube_id": "uSAGSbauHBs",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/uSAGSbauHBs_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "uZX-5R8cftI_60.0_210.0",
+      "youtube_id": "uZX-5R8cftI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/uZX-5R8cftI_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "uoVRb7a58GU_360.0_510.0",
+      "youtube_id": "uoVRb7a58GU",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/uoVRb7a58GU_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "vNkDq7WcfxE_60.0_210.0",
+      "youtube_id": "vNkDq7WcfxE",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/vNkDq7WcfxE_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "wFPaHOAoGzI_60.0_210.0",
+      "youtube_id": "wFPaHOAoGzI",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/wFPaHOAoGzI_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "wUgPzvcKK5c_360.0_510.0",
+      "youtube_id": "wUgPzvcKK5c",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/wUgPzvcKK5c_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "x4kKIm8WWOA_210.0_360.0",
+      "youtube_id": "x4kKIm8WWOA",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/x4kKIm8WWOA_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xHypiQpL2yQ_210.0_360.0",
+      "youtube_id": "xHypiQpL2yQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xHypiQpL2yQ_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xQ5SY0ZDXZs_510.0_660.0",
+      "youtube_id": "xQ5SY0ZDXZs",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xQ5SY0ZDXZs_510.0_660.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xHypiQpL2yQ_60.0_210.0",
+      "youtube_id": "xHypiQpL2yQ",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xHypiQpL2yQ_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xUb7T-C0Yt4_360.0_510.0",
+      "youtube_id": "xUb7T-C0Yt4",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xUb7T-C0Yt4_360.0_510.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xQ5SY0ZDXZs_660.0_810.0",
+      "youtube_id": "xQ5SY0ZDXZs",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xQ5SY0ZDXZs_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xUb7T-C0Yt4_60.0_210.0",
+      "youtube_id": "xUb7T-C0Yt4",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xUb7T-C0Yt4_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xVeIxhIUT8I_210.0_360.0",
+      "youtube_id": "xVeIxhIUT8I",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xVeIxhIUT8I_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xVeIxhIUT8I_60.0_210.0",
+      "youtube_id": "xVeIxhIUT8I",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xVeIxhIUT8I_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xXWKd1b3SHM_60.0_210.0",
+      "youtube_id": "xXWKd1b3SHM",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xXWKd1b3SHM_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xjV76k420Rc_210.0_360.0",
+      "youtube_id": "xjV76k420Rc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xjV76k420Rc_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xqe9FSBJDx0_60.0_210.0",
+      "youtube_id": "xqe9FSBJDx0",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xqe9FSBJDx0_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "xjV76k420Rc_60.0_210.0",
+      "youtube_id": "xjV76k420Rc",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/xjV76k420Rc_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "yId2wIocTys_60.0_210.0",
+      "youtube_id": "yId2wIocTys",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/yId2wIocTys_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "yeCaAL4uM-U_210.0_360.0",
+      "youtube_id": "yeCaAL4uM-U",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/yeCaAL4uM-U_210.0_360.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "yeCaAL4uM-U_660.0_810.0",
+      "youtube_id": "yeCaAL4uM-U",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/yeCaAL4uM-U_660.0_810.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "zTf-3BOLi8w_60.0_210.0",
+      "youtube_id": "zTf-3BOLi8w",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/zTf-3BOLi8w_60.0_210.0.mp4",
+      "status": "done"
+    },
+    {
+      "video_id": "zY6XnLhTp7g_210.0_360.0",
+      "youtube_id": "zY6XnLhTp7g",
+      "output_path": "data/videos/RIVER/QVHighlights-Val/zY6XnLhTp7g_210.0_360.0.mp4",
+      "status": "done"
+    }
+  ],
+  "failed_items": [
+    {
+      "video_id": "-gNwItPwMhM_210.0_360.0",
+      "youtube_id": "-gNwItPwMhM",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/-gNwItPwMhM_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=-gNwItPwMhM']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "2I9-kvemtSU_360.0_510.0",
+      "youtube_id": "2I9-kvemtSU",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/2I9-kvemtSU_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=2I9-kvemtSU']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "2I9-kvemtSU_660.0_810.0",
+      "youtube_id": "2I9-kvemtSU",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/2I9-kvemtSU_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=2I9-kvemtSU']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "109g6BhejP0_360.0_510.0",
+      "youtube_id": "109g6BhejP0",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/109g6BhejP0_360.0_510.0.mp4"
+    },
+    {
+      "video_id": "5oucQKLn88A_360.0_510.0",
+      "youtube_id": "5oucQKLn88A",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/5oucQKLn88A_360.0_510.0.mp4"
+    },
+    {
+      "video_id": "63qdAAxHSwU_60.0_210.0",
+      "youtube_id": "63qdAAxHSwU",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/63qdAAxHSwU_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=63qdAAxHSwU']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "7PKEbzSNwts_510.0_660.0",
+      "youtube_id": "7PKEbzSNwts",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*510.0-660.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/7PKEbzSNwts_510.0_660.0.%(ext)s', 'https://www.youtube.com/watch?v=7PKEbzSNwts']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "7cNySQnKFaE_360.0_510.0",
+      "youtube_id": "7cNySQnKFaE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/7cNySQnKFaE_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=7cNySQnKFaE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "8v4IP_PI8AE_210.0_360.0",
+      "youtube_id": "8v4IP_PI8AE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/8v4IP_PI8AE_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=8v4IP_PI8AE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "AD0qNZy48_s_360.0_510.0",
+      "youtube_id": "AD0qNZy48_s",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/AD0qNZy48_s_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=AD0qNZy48_s']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "AD0qNZy48_s_510.0_660.0",
+      "youtube_id": "AD0qNZy48_s",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*510.0-660.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/AD0qNZy48_s_510.0_660.0.%(ext)s', 'https://www.youtube.com/watch?v=AD0qNZy48_s']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "AD0qNZy48_s_660.0_810.0",
+      "youtube_id": "AD0qNZy48_s",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/AD0qNZy48_s_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=AD0qNZy48_s']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "B1RpWUrs06U_510.0_660.0",
+      "youtube_id": "B1RpWUrs06U",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*510.0-660.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/B1RpWUrs06U_510.0_660.0.%(ext)s', 'https://www.youtube.com/watch?v=B1RpWUrs06U']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "B1RpWUrs06U_660.0_810.0",
+      "youtube_id": "B1RpWUrs06U",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/B1RpWUrs06U_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=B1RpWUrs06U']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "BSEfaooDUEE_510.0_660.0",
+      "youtube_id": "BSEfaooDUEE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*510.0-660.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/BSEfaooDUEE_510.0_660.0.%(ext)s', 'https://www.youtube.com/watch?v=BSEfaooDUEE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "BSEfaooDUEE_660.0_810.0",
+      "youtube_id": "BSEfaooDUEE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/BSEfaooDUEE_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=BSEfaooDUEE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "BanSEQnGfFg_210.0_360.0",
+      "youtube_id": "BanSEQnGfFg",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/BanSEQnGfFg_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=BanSEQnGfFg']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "BanSEQnGfFg_360.0_510.0",
+      "youtube_id": "BanSEQnGfFg",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/BanSEQnGfFg_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=BanSEQnGfFg']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "DLSkojSiAPs_660.0_810.0",
+      "youtube_id": "DLSkojSiAPs",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/DLSkojSiAPs_660.0_810.0.mp4"
+    },
+    {
+      "video_id": "E9drfsoiGb4_360.0_510.0",
+      "youtube_id": "E9drfsoiGb4",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/E9drfsoiGb4_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=E9drfsoiGb4']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "EjV6yAxwyyI_360.0_510.0",
+      "youtube_id": "EjV6yAxwyyI",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/EjV6yAxwyyI_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=EjV6yAxwyyI']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "FYU3KWg9TdQ_510.0_660.0",
+      "youtube_id": "FYU3KWg9TdQ",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*510.0-660.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/FYU3KWg9TdQ_510.0_660.0.%(ext)s', 'https://www.youtube.com/watch?v=FYU3KWg9TdQ']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "GOzEeIvLZO4_660.0_810.0",
+      "youtube_id": "GOzEeIvLZO4",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/GOzEeIvLZO4_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=GOzEeIvLZO4']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "H15bUc-1LJo_210.0_360.0",
+      "youtube_id": "H15bUc-1LJo",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/H15bUc-1LJo_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=H15bUc-1LJo']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "HkLfNhgP0TM_360.0_510.0",
+      "youtube_id": "HkLfNhgP0TM",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/HkLfNhgP0TM_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=HkLfNhgP0TM']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "G7oh5A7gGpQ_60.0_210.0",
+      "youtube_id": "G7oh5A7gGpQ",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/G7oh5A7gGpQ_60.0_210.0.mp4"
+    },
+    {
+      "video_id": "IAbAn-MkMH8_510.0_660.0",
+      "youtube_id": "IAbAn-MkMH8",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/IAbAn-MkMH8_510.0_660.0.mp4"
+    },
+    {
+      "video_id": "KDpsbJHx1RI_210.0_360.0",
+      "youtube_id": "KDpsbJHx1RI",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/KDpsbJHx1RI_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=KDpsbJHx1RI']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "IoNLqyYnO8k_60.0_210.0",
+      "youtube_id": "IoNLqyYnO8k",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/IoNLqyYnO8k_60.0_210.0.mp4"
+    },
+    {
+      "video_id": "MNmYbLZ9Z_U_360.0_510.0",
+      "youtube_id": "MNmYbLZ9Z_U",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/MNmYbLZ9Z_U_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=MNmYbLZ9Z_U']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "MNmYbLZ9Z_U_660.0_810.0",
+      "youtube_id": "MNmYbLZ9Z_U",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/MNmYbLZ9Z_U_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=MNmYbLZ9Z_U']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "MkdG8OXExIo_60.0_210.0",
+      "youtube_id": "MkdG8OXExIo",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/MkdG8OXExIo_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=MkdG8OXExIo']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "MkdG8OXExIo_660.0_810.0",
+      "youtube_id": "MkdG8OXExIo",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/MkdG8OXExIo_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=MkdG8OXExIo']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "N7frLe-nQog_360.0_510.0",
+      "youtube_id": "N7frLe-nQog",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/N7frLe-nQog_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=N7frLe-nQog']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "N8dPpthy7z4_60.0_210.0",
+      "youtube_id": "N8dPpthy7z4",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/N8dPpthy7z4_60.0_210.0.mp4"
+    },
+    {
+      "video_id": "NUsG9BgSes0_510.0_660.0",
+      "youtube_id": "NUsG9BgSes0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*510.0-660.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/NUsG9BgSes0_510.0_660.0.%(ext)s', 'https://www.youtube.com/watch?v=NUsG9BgSes0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "NUsG9BgSes0_60.0_210.0",
+      "youtube_id": "NUsG9BgSes0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/NUsG9BgSes0_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=NUsG9BgSes0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "NUsG9BgSes0_660.0_810.0",
+      "youtube_id": "NUsG9BgSes0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/NUsG9BgSes0_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=NUsG9BgSes0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "Ps1SNAGQTc0_510.0_660.0",
+      "youtube_id": "Ps1SNAGQTc0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*510.0-660.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/Ps1SNAGQTc0_510.0_660.0.%(ext)s', 'https://www.youtube.com/watch?v=Ps1SNAGQTc0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "Ps1SNAGQTc0_660.0_810.0",
+      "youtube_id": "Ps1SNAGQTc0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/Ps1SNAGQTc0_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=Ps1SNAGQTc0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "RVOg4rk7MRg_60.0_210.0",
+      "youtube_id": "RVOg4rk7MRg",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/RVOg4rk7MRg_60.0_210.0.mp4"
+    },
+    {
+      "video_id": "S1DZb9SkrK8_60.0_210.0",
+      "youtube_id": "S1DZb9SkrK8",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/S1DZb9SkrK8_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=S1DZb9SkrK8']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "SD3Rg6hTEzw_210.0_360.0",
+      "youtube_id": "SD3Rg6hTEzw",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/SD3Rg6hTEzw_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=SD3Rg6hTEzw']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "T9ptpjvuIP8_660.0_810.0",
+      "youtube_id": "T9ptpjvuIP8",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/T9ptpjvuIP8_660.0_810.0.mp4"
+    },
+    {
+      "video_id": "UvgDldse9KU_210.0_360.0",
+      "youtube_id": "UvgDldse9KU",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/UvgDldse9KU_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=UvgDldse9KU']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "UvgDldse9KU_360.0_510.0",
+      "youtube_id": "UvgDldse9KU",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/UvgDldse9KU_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=UvgDldse9KU']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "T9ptpjvuIP8_510.0_660.0",
+      "youtube_id": "T9ptpjvuIP8",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/T9ptpjvuIP8_510.0_660.0.mp4"
+    },
+    {
+      "video_id": "X3B-d-QsWXY_210.0_360.0",
+      "youtube_id": "X3B-d-QsWXY",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/X3B-d-QsWXY_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=X3B-d-QsWXY']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "X3B-d-QsWXY_60.0_210.0",
+      "youtube_id": "X3B-d-QsWXY",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/X3B-d-QsWXY_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=X3B-d-QsWXY']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "XWLHTkh1fAI_210.0_360.0",
+      "youtube_id": "XWLHTkh1fAI",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/XWLHTkh1fAI_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=XWLHTkh1fAI']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "XWLHTkh1fAI_60.0_210.0",
+      "youtube_id": "XWLHTkh1fAI",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/XWLHTkh1fAI_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=XWLHTkh1fAI']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "XcJPd4NhhCs_360.0_510.0",
+      "youtube_id": "XcJPd4NhhCs",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/XcJPd4NhhCs_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=XcJPd4NhhCs']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "XcJPd4NhhCs_660.0_810.0",
+      "youtube_id": "XcJPd4NhhCs",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/XcJPd4NhhCs_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=XcJPd4NhhCs']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "XjkiAOp0BMY_360.0_510.0",
+      "youtube_id": "XjkiAOp0BMY",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/XjkiAOp0BMY_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=XjkiAOp0BMY']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "X6g8OD7TdcY_210.0_360.0",
+      "youtube_id": "X6g8OD7TdcY",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/X6g8OD7TdcY_210.0_360.0.mp4"
+    },
+    {
+      "video_id": "_9vleIcuQd0_360.0_510.0",
+      "youtube_id": "_9vleIcuQd0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/_9vleIcuQd0_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=_9vleIcuQd0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "autOFSurWi4_210.0_360.0",
+      "youtube_id": "autOFSurWi4",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/autOFSurWi4_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=autOFSurWi4']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "ZWldnViJ4iY_360.0_510.0",
+      "youtube_id": "ZWldnViJ4iY",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/ZWldnViJ4iY_360.0_510.0.mp4"
+    },
+    {
+      "video_id": "c2iz3qqVRbg_210.0_360.0",
+      "youtube_id": "c2iz3qqVRbg",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/c2iz3qqVRbg_210.0_360.0.mp4"
+    },
+    {
+      "video_id": "cOcN2KUgM7U_360.0_510.0",
+      "youtube_id": "cOcN2KUgM7U",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/cOcN2KUgM7U_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=cOcN2KUgM7U']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "cjgqrfJacWA_60.0_210.0",
+      "youtube_id": "cjgqrfJacWA",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/cjgqrfJacWA_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=cjgqrfJacWA']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "c-fzjF9ubUc_60.0_210.0",
+      "youtube_id": "c-fzjF9ubUc",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/c-fzjF9ubUc_60.0_210.0.mp4"
+    },
+    {
+      "video_id": "dsmZngVgytA_510.0_660.0",
+      "youtube_id": "dsmZngVgytA",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/dsmZngVgytA_510.0_660.0.mp4"
+    },
+    {
+      "video_id": "ez8kypBrMVE_210.0_360.0",
+      "youtube_id": "ez8kypBrMVE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/ez8kypBrMVE_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=ez8kypBrMVE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "ez8kypBrMVE_360.0_510.0",
+      "youtube_id": "ez8kypBrMVE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/ez8kypBrMVE_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=ez8kypBrMVE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "ez8kypBrMVE_510.0_660.0",
+      "youtube_id": "ez8kypBrMVE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*510.0-660.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/ez8kypBrMVE_510.0_660.0.%(ext)s', 'https://www.youtube.com/watch?v=ez8kypBrMVE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "ebCzdax-fjA_660.0_810.0",
+      "youtube_id": "ebCzdax-fjA",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/ebCzdax-fjA_660.0_810.0.mp4"
+    },
+    {
+      "video_id": "h_73QmnwHaQ_60.0_210.0",
+      "youtube_id": "h_73QmnwHaQ",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/h_73QmnwHaQ_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=h_73QmnwHaQ']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "hoalP6K54Tk_60.0_210.0",
+      "youtube_id": "hoalP6K54Tk",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/hoalP6K54Tk_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=hoalP6K54Tk']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "hpcc5pGNKZk_210.0_360.0",
+      "youtube_id": "hpcc5pGNKZk",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/hpcc5pGNKZk_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=hpcc5pGNKZk']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "hpcc5pGNKZk_660.0_810.0",
+      "youtube_id": "hpcc5pGNKZk",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/hpcc5pGNKZk_660.0_810.0.mp4"
+    },
+    {
+      "video_id": "j0wGIBt61n0_210.0_360.0",
+      "youtube_id": "j0wGIBt61n0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/j0wGIBt61n0_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=j0wGIBt61n0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "j0wGIBt61n0_360.0_510.0",
+      "youtube_id": "j0wGIBt61n0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/j0wGIBt61n0_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=j0wGIBt61n0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "j0wGIBt61n0_60.0_210.0",
+      "youtube_id": "j0wGIBt61n0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/j0wGIBt61n0_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=j0wGIBt61n0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "j0wGIBt61n0_660.0_810.0",
+      "youtube_id": "j0wGIBt61n0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/j0wGIBt61n0_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=j0wGIBt61n0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "k4cmv7wjjt0_210.0_360.0",
+      "youtube_id": "k4cmv7wjjt0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/k4cmv7wjjt0_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=k4cmv7wjjt0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "l5kIbQRjJHk_210.0_360.0",
+      "youtube_id": "l5kIbQRjJHk",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/l5kIbQRjJHk_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=l5kIbQRjJHk']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "l5kIbQRjJHk_360.0_510.0",
+      "youtube_id": "l5kIbQRjJHk",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/l5kIbQRjJHk_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=l5kIbQRjJHk']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "m0cZFcXa5sc_360.0_510.0",
+      "youtube_id": "m0cZFcXa5sc",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/m0cZFcXa5sc_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=m0cZFcXa5sc']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "m8tif6c-u8w_360.0_510.0",
+      "youtube_id": "m8tif6c-u8w",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/m8tif6c-u8w_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=m8tif6c-u8w']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "msAkt_9q6H0_360.0_510.0",
+      "youtube_id": "msAkt_9q6H0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/msAkt_9q6H0_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=msAkt_9q6H0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "nrIoV2MDhN0_60.0_210.0",
+      "youtube_id": "nrIoV2MDhN0",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/nrIoV2MDhN0_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=nrIoV2MDhN0']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "ny_1mBy6anU_210.0_360.0",
+      "youtube_id": "ny_1mBy6anU",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/ny_1mBy6anU_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=ny_1mBy6anU']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "ocLUzCNodj4_360.0_510.0",
+      "youtube_id": "ocLUzCNodj4",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/ocLUzCNodj4_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=ocLUzCNodj4']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "ocLUzCNodj4_510.0_660.0",
+      "youtube_id": "ocLUzCNodj4",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*510.0-660.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/ocLUzCNodj4_510.0_660.0.%(ext)s', 'https://www.youtube.com/watch?v=ocLUzCNodj4']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "pmGyw055pQg_60.0_210.0",
+      "youtube_id": "pmGyw055pQg",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/pmGyw055pQg_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=pmGyw055pQg']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "pmGyw055pQg_660.0_810.0",
+      "youtube_id": "pmGyw055pQg",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*660.0-810.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/pmGyw055pQg_660.0_810.0.%(ext)s', 'https://www.youtube.com/watch?v=pmGyw055pQg']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "rNPSRSs3reQ_60.0_210.0",
+      "youtube_id": "rNPSRSs3reQ",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/rNPSRSs3reQ_60.0_210.0.mp4"
+    },
+    {
+      "video_id": "rrTIeJRVGjg_360.0_510.0",
+      "youtube_id": "rrTIeJRVGjg",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/rrTIeJRVGjg_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=rrTIeJRVGjg']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "rrTIeJRVGjg_60.0_210.0",
+      "youtube_id": "rrTIeJRVGjg",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/rrTIeJRVGjg_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=rrTIeJRVGjg']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "slQPJSfZ_4o_210.0_360.0",
+      "youtube_id": "slQPJSfZ_4o",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/slQPJSfZ_4o_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=slQPJSfZ_4o']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "slQPJSfZ_4o_360.0_510.0",
+      "youtube_id": "slQPJSfZ_4o",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/slQPJSfZ_4o_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=slQPJSfZ_4o']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "slQPJSfZ_4o_60.0_210.0",
+      "youtube_id": "slQPJSfZ_4o",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/slQPJSfZ_4o_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=slQPJSfZ_4o']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "uE1ciE0PCIU_210.0_360.0",
+      "youtube_id": "uE1ciE0PCIU",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/uE1ciE0PCIU_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=uE1ciE0PCIU']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "uE1ciE0PCIU_510.0_660.0",
+      "youtube_id": "uE1ciE0PCIU",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*510.0-660.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/uE1ciE0PCIU_510.0_660.0.%(ext)s', 'https://www.youtube.com/watch?v=uE1ciE0PCIU']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "tSWcHfTzuA0_60.0_210.0",
+      "youtube_id": "tSWcHfTzuA0",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/tSWcHfTzuA0_60.0_210.0.mp4"
+    },
+    {
+      "video_id": "xVJMPmmW7rE_210.0_360.0",
+      "youtube_id": "xVJMPmmW7rE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/xVJMPmmW7rE_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=xVJMPmmW7rE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "yITWrNLEGLE_210.0_360.0",
+      "youtube_id": "yITWrNLEGLE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/yITWrNLEGLE_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=yITWrNLEGLE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "yITWrNLEGLE_360.0_510.0",
+      "youtube_id": "yITWrNLEGLE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/yITWrNLEGLE_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=yITWrNLEGLE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "yITWrNLEGLE_60.0_210.0",
+      "youtube_id": "yITWrNLEGLE",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*60.0-210.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/yITWrNLEGLE_60.0_210.0.%(ext)s', 'https://www.youtube.com/watch?v=yITWrNLEGLE']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "yJLmek6euTA_210.0_360.0",
+      "youtube_id": "yJLmek6euTA",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*210.0-360.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/yJLmek6euTA_210.0_360.0.%(ext)s', 'https://www.youtube.com/watch?v=yJLmek6euTA']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "yJLmek6euTA_360.0_510.0",
+      "youtube_id": "yJLmek6euTA",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/yJLmek6euTA_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=yJLmek6euTA']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "zVwsEVwS8Kw_360.0_510.0",
+      "youtube_id": "zVwsEVwS8Kw",
+      "error": "Command '['/home/xiezitao/workspace/RIVER/bin/yt-dlp', '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/best[height<=720]/best', '--merge-output-format', 'mp4', '--ffmpeg-location', '/home/xiezitao/workspace/RIVER/bin', '--retries', '3', '--fragment-retries', '3', '--socket-timeout', '30', '--download-sections', '*360.0-510.0', '--force-keyframes-at-cuts', '-o', 'data/videos/RIVER/QVHighlights-Val/zVwsEVwS8Kw_360.0_510.0.%(ext)s', 'https://www.youtube.com/watch?v=zVwsEVwS8Kw']' returned non-zero exit status 1."
+    },
+    {
+      "video_id": "z96UT5W0sfM_210.0_360.0",
+      "youtube_id": "z96UT5W0sfM",
+      "error": "Downloaded file is missing video or has short duration: data/videos/RIVER/QVHighlights-Val/z96UT5W0sfM_210.0_360.0.mp4"
+    }
+  ]
+}

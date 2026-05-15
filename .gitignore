@@ -1,0 +1,37 @@
+# Local environment variables (API keys)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Results and logs (generated at runtime)
+results/
+*.log
+logs/
+
+# Data (large video files, never commit)
+data/
+data/raw/
+data/videos/
+
+# Binary tools (should be installed, not committed)
+bin/ffmpeg
+bin/ffprobe
+bin/yt-dlp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
