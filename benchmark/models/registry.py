@@ -27,3 +27,4 @@ def build_model(name: str, **kwargs: Any) -> BaseModel:
 def import_builtin_models() -> None:
     import benchmark.models.api.openai_model  # noqa: F401
     import benchmark.models.api.qwen_api_model  # noqa: F401
+    import benchmark.models.local.qwen_local_model  # noqa: F401
