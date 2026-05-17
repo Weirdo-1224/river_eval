@@ -68,5 +68,8 @@ def load_config(args: argparse.Namespace | None = None) -> Config:
     cfg = Config.from_yaml(args.config)
     if args.max_samples is not None:
         cfg._data.setdefault("experiment", {})
-        cfg._data["experiment"]["max_samples"] = args.max_samples
+        # max_samples=0 means unlimited (override config limit)
+        cfg._data["experiment"]["max_samples"] = (
+            None if args.max_samples == 0 else args.max_samples
+        )
     return cfg

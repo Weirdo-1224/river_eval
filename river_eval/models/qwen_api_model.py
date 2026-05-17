@@ -14,6 +14,14 @@ from river_eval.models.base import BaseModel
 from river_eval.utils.cache import RequestCache
 from river_eval.utils.cost_tracker import CostTracker
 
+# Exceptions that are safe to retry.
+RETRYABLE_EXCEPTIONS = (
+    openai.APIConnectionError,
+    openai.APITimeoutError,
+    openai.RateLimitError,
+    openai.InternalServerError,
+)
+
 
 class QwenAPIModel(BaseModel):
     """Adapter for Qwen-VL-Plus / Qwen-VL-Max via DashScope OpenAI-compatible API."""
@@ -89,19 +97,39 @@ class QwenAPIModel(BaseModel):
                 return cached["raw_output"]
 
         start = time.time()
-        try:
-            response = self.client.chat.completions.create(
-                model=self.model,
-                messages=request_messages,
-                temperature=self.temperature,
-                max_tokens=self.max_tokens,
-            )
-        except Exception as exc:
+        max_retries = 3
+        last_error = None
+        for attempt in range(max_retries):
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=request_messages,
+                    temperature=self.temperature,
+                    max_tokens=self.max_tokens,
+                )
+                break
+            except RETRYABLE_EXCEPTIONS as exc:
+                last_error = exc
+                wait = 2 ** attempt  # exponential backoff: 1s, 2s, 4s
+                time.sleep(wait)
+                continue
+            except Exception as exc:
+                # Non-retryable errors fail immediately.
+                latency = time.time() - start
+                self._last_latency = latency
+                self._last_cached = False
+                self._last_usage = {}
+                error_msg = f"<ERROR: {type(exc).__name__}: {exc}>"
+                if self.cache is not None:
+                    self.cache.set(cache_key, {"raw_output": error_msg, "usage": {}})
+                return error_msg
+        else:
+            # All retries exhausted.
             latency = time.time() - start
             self._last_latency = latency
             self._last_cached = False
             self._last_usage = {}
-            error_msg = f"<ERROR: {type(exc).__name__}: {exc}>"
+            error_msg = f"<ERROR: {type(last_error).__name__}: {last_error}>"
             if self.cache is not None:
                 self.cache.set(cache_key, {"raw_output": error_msg, "usage": {}})
             return error_msg
