@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from river_eval.schema import EvalResult
+from benchmark.schema import EvalResult
 
 
 class ResultWriter:
@@ -26,6 +26,10 @@ class ResultWriter:
             "latency_sec": result.latency_sec,
             **result.metadata,
         }
+        self._fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+        self._fh.flush()
+
+    def write_record(self, record: dict[str, Any]) -> None:
         self._fh.write(json.dumps(record, ensure_ascii=False) + "\n")
         self._fh.flush()
 

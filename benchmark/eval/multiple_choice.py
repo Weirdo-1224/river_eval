@@ -6,7 +6,6 @@ import re
 from dataclasses import dataclass, field
 from typing import Any
 
-
 @dataclass
 class MCEvalMetrics:
     total: int = 0
@@ -15,11 +14,24 @@ class MCEvalMetrics:
     breakdown: dict[str, Any] = field(default_factory=dict)
 
 
-def parse_answer(raw_output: str) -> str | None:
-    """Extract the first A/B/C/D letter from model output."""
+def valid_letters(num_choices: int) -> list[str]:
+    return [chr(ord("A") + idx) for idx in range(max(num_choices, 0))]
+
+
+def parse_answer(raw_output: str, choices: list[str] | None = None) -> str | None:
+    """Extract the first valid option letter from model output.
+
+    Handles common API outputs such as ``E``, ``Option E``, and ``Answer: E``.
+    The valid answer range is derived from the sample choices when available.
+    """
     if not raw_output:
         return None
-    match = re.search(r"\b([A-Da-d])\b", raw_output.strip())
+    letters = valid_letters(len(choices)) if choices is not None else list("ABCDE")
+    if not letters:
+        return None
+    pattern = "".join(re.escape(letter) for letter in letters)
+    text = raw_output.strip().upper()
+    match = re.search(rf"(?:ANSWER\s*[:：]?\s*|OPTION\s+)?\b([{pattern}])\b", text)
     if match:
         return match.group(1).upper()
     return None

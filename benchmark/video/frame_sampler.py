@@ -7,7 +7,7 @@ import tempfile
 from pathlib import Path
 from typing import Literal
 
-from river_eval.utils.cache import FrameCache
+from benchmark.storage.cache import FrameCache
 
 
 FFMPEG = Path(__file__).parents[2] / "bin" / "ffmpeg"

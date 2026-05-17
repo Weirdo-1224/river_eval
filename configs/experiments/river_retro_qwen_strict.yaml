@@ -1,0 +1,51 @@
+experiment:
+  name: river_retro_qwen_strict
+  output_dir: results/river_retro_qwen_strict
+  max_samples: 10
+
+dataset:
+  name: river_retro_memory
+  annotation_path: annotations/Retro-Memory.json
+  video_root: data/videos/RIVER
+  require_local_video: true
+
+task:
+  name: river_retro_memory
+  max_frames: 16
+  frame_resolution: 448
+
+prompt:
+  style: river_longshort
+
+video:
+  frame_policy: river_long_short
+  max_frames: 16
+  frame_resolution: 448
+  short_frames: 4
+  short_window_sec: 16.0
+
+model:
+  name: qwen_api
+  model: qwen-vl-plus
+  temperature: 0
+  max_tokens: 16
+
+storage:
+  save_raw_output: true
+  save_trace: true
+  use_cache: true
+  cache_dir: auto
+  cache_errors: false
+  reuse_failed_cache: false
+
+cost:
+  track: true
+  pricing:
+    qwen-vl-plus: [0.00050, 0.00050]
+    qwen-vl-max: [0.00200, 0.00200]
+    gpt-4o: [0.00250, 0.01000]
+    gpt-4o-mini: [0.00015, 0.00060]
+
+evaluation:
+  scoring: river_mcq_accuracy
+  metrics: [accuracy]

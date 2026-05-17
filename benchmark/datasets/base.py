@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 
-from river_eval.schema import Sample
+from benchmark.schema import Sample
 
 
 class BaseDataset(ABC):
