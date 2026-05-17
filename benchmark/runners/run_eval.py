@@ -102,18 +102,29 @@ def run() -> None:
     # --- Model ---
     model_name = cfg.get("model.name", "openai")
     model_id = cfg.get("model.model", "gpt-4o")
-    model = build_model(
-        model_name,
-        model=model_id,
-        temperature=cfg.get("model.temperature", 0.0),
-        max_tokens=cfg.get("model.max_tokens", 16),
-        api_key=cfg.get("model.api_key"),
-        base_url=cfg.get("model.base_url"),
-        cache=request_cache,
-        cost_tracker=cost_tracker,
-        cache_errors=cfg.get("storage.cache_errors", False),
-        reuse_failed_cache=cfg.get("storage.reuse_failed_cache", False),
-    )
+    model_kwargs = {
+        "model": model_id,
+        "temperature": cfg.get("model.temperature", 0.0),
+        "max_tokens": cfg.get("model.max_tokens", 16),
+        "api_key": cfg.get("model.api_key"),
+        "base_url": cfg.get("model.base_url"),
+        "cache": request_cache,
+        "cost_tracker": cost_tracker,
+        "cache_errors": cfg.get("storage.cache_errors", False),
+        "reuse_failed_cache": cfg.get("storage.reuse_failed_cache", False),
+    }
+    for optional_key in (
+        "model_path",
+        "torch_dtype",
+        "device_map",
+        "trust_remote_code",
+        "attn_implementation",
+        "max_frames",
+    ):
+        value = cfg.get(f"model.{optional_key}")
+        if value is not None:
+            model_kwargs[optional_key] = value
+    model = build_model(model_name, **model_kwargs)
 
     # --- Output ---
     output_dir = cfg.output_dir()
@@ -130,20 +141,34 @@ def run() -> None:
         for idx, sample in enumerate(samples, 1):
             print(f"[{idx}/{len(samples)}] {sample.sample_id}")
 
-            frame_bundle = frame_policy.sample(sample, cache=frame_cache)
-            print(
-                f"    -> sampled {len(frame_bundle.paths)} frames "
-                f"({len(frame_bundle.long.paths)} long + {len(frame_bundle.short.paths)} short)"
-            )
+            frame_bundle = None
+            raw_output = ""
+            predicted = None
+            latency = 0.0
+            cached = False
+            usage = {}
+            status = "success"
+            error = None
 
-            messages = task.build_prompt(sample, frame_bundle=frame_bundle)
-            raw_output = model.generate(messages, frame_bundle.paths, sample_id=sample.sample_id)
-            predicted = task.parse_output(raw_output, sample=sample)
-            latency = getattr(model, "_last_latency", 0.0)
-            cached = getattr(model, "_last_cached", False)
-            usage = getattr(model, "_last_usage", {})
-            status = getattr(model, "_last_status", "success")
-            error = getattr(model, "_last_error", None)
+            try:
+                frame_bundle = frame_policy.sample(sample, cache=frame_cache)
+                print(
+                    f"    -> sampled {len(frame_bundle.paths)} frames "
+                    f"({len(frame_bundle.long.paths)} long + {len(frame_bundle.short.paths)} short)"
+                )
+
+                messages = task.build_prompt(sample, frame_bundle=frame_bundle)
+                raw_output = model.generate(messages, frame_bundle.paths, sample_id=sample.sample_id)
+                predicted = task.parse_output(raw_output, sample=sample)
+                latency = getattr(model, "_last_latency", 0.0)
+                cached = getattr(model, "_last_cached", False)
+                usage = getattr(model, "_last_usage", {})
+                status = getattr(model, "_last_status", "success")
+                error = getattr(model, "_last_error", None)
+            except Exception as exc:
+                status = "failed"
+                error = f"{type(exc).__name__}: {exc}"
+                raw_output = f"<ERROR: {error}>"
 
             score = scorer(predicted, sample)
             total += 1
@@ -159,10 +184,10 @@ def run() -> None:
                 "scoring": scoring_name,
                 "video_path": str(sample.video_path),
                 "video_source": sample.video_source,
-                "visible_range": frame_bundle.visible_range,
-                "long_frame_timestamps": frame_bundle.long.timestamps,
-                "short_frame_timestamps": frame_bundle.short.timestamps,
-                "frame_timestamps": frame_bundle.timestamps,
+                "visible_range": frame_bundle.visible_range if frame_bundle is not None else [0.0, sample.question_time],
+                "long_frame_timestamps": frame_bundle.long.timestamps if frame_bundle is not None else [],
+                "short_frame_timestamps": frame_bundle.short.timestamps if frame_bundle is not None else [],
+                "frame_timestamps": frame_bundle.timestamps if frame_bundle is not None else [],
                 "question": sample.question,
                 "choices": sample.choices,
                 "answer": sample.answer,
@@ -186,10 +211,13 @@ def run() -> None:
             writer.write_record(record)
 
             cache_tag = "[C]" if cached else "[R]"
-            print(
-                f"    -> {cache_tag} pred={predicted}  gt={sample.answer}  "
-                f"correct={score.get('is_correct')}  lat={latency:.2f}s"
-            )
+            if status == "failed":
+                print(f"    -> [E] failed  gt={sample.answer}  error={error}")
+            else:
+                print(
+                    f"    -> {cache_tag} pred={predicted}  gt={sample.answer}  "
+                    f"correct={score.get('is_correct')}  lat={latency:.2f}s"
+                )
 
     # --- Evaluation ---
     accuracy = correct / total if total else 0.0

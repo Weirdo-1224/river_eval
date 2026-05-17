@@ -80,22 +80,31 @@ def _extract_frames(
     for idx, timestamp in enumerate(timestamps, 1):
         out_path = out_dir / f"frame_{idx:04d}_{timestamp:.3f}.jpg"
         if not out_path.exists():
-            cmd = [
-                ffmpeg_bin,
-                "-y",
-                "-ss",
-                f"{timestamp:.3f}",
-                "-i",
-                str(sample.video_path),
-                "-frames:v",
-                "1",
-                "-vf",
-                f"scale={resolution}:-1:flags=lanczos",
-                "-q:v",
-                "2",
-                str(out_path),
-            ]
-            subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+            last_error: subprocess.CalledProcessError | None = None
+            for candidate in (timestamp, max(timestamp - 0.5, 0.0), max(timestamp - 1.0, 0.0)):
+                cmd = [
+                    ffmpeg_bin,
+                    "-y",
+                    "-ss",
+                    f"{candidate:.3f}",
+                    "-i",
+                    str(sample.video_path),
+                    "-frames:v",
+                    "1",
+                    "-vf",
+                    f"scale={resolution}:-1:flags=lanczos",
+                    "-q:v",
+                    "2",
+                    str(out_path),
+                ]
+                try:
+                    subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+                    break
+                except subprocess.CalledProcessError as exc:
+                    last_error = exc
+            else:
+                if last_error is not None:
+                    raise last_error
         frames.append(out_path)
     return frames
 
