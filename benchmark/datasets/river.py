@@ -6,11 +6,13 @@ import json
 from pathlib import Path
 from typing import Any
 
-from river_eval.datasets.base import BaseDataset
-from river_eval.schema import Sample
-from river_eval.utils.video_resolver import resolve_video_path
+from benchmark.datasets.base import BaseDataset
+from benchmark.datasets.registry import register_dataset
+from benchmark.schema import Sample
+from benchmark.utils.video_resolver import resolve_video_path
 
 
+@register_dataset("river_retro_memory")
 class RiverRetroDataset(BaseDataset):
     """Loads RIVER Retro-Memory annotations and resolves local video paths."""
 

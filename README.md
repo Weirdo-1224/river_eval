@@ -1,225 +1,218 @@
-# RIVER Eval —— 长程视频交互评测框架
+# LV_benchmark
 
-<p align="center">
-  <b>面向长程视频理解、实时交互与历史记忆的统一多模态大模型评测平台</b>
-</p>
+LV_benchmark 是一个面向长程视频理解与多模态大模型评测的通用实验框架。项目当前以 RIVER Bench 作为第一阶段接入对象，用于构建长程视频交互评测的基本闭环；后续可扩展到本地多模态模型、自建视频数据集、机械狗巡检任务和电力作业异常检测任务。
 
----
+本框架的核心目标不是单独复现某一个数据集，而是将长程视频评测过程拆分为可替换的数据集、任务、模型、抽帧策略、记忆机制和评分模块，使不同任务和不同模型可以在同一套框架下进行统一评测和对比。
 
 ## 项目定位
 
-本框架基于 [RIVER Bench](https://github.com/OpenGVLab/RIVER) 构建，目标不是简单的"视频问答脚本集合"，而是一个**可长期复用、可扩展、可分析**的长程视频交互评测平台。
+传统视频问答通常将完整视频一次性输入模型，然后让模型回答问题。这种方式适合普通离线视频理解，但不适合长程任务、在线交互和历史记忆评测。
 
-传统视频问答通常把完整视频一次性输入模型，但 RIVER 的核心价值在于**模拟真实在线交互**：
+LV_benchmark 关注的是更接近真实应用的长程视频理解问题：模型只能在特定时间点看到允许可见的视频内容，需要根据当前画面、历史信息和任务上下文完成判断。对于机械狗巡检、电力作业监督等场景，模型不仅要识别当前动作，还需要判断任务执行阶段、历史步骤是否完成、是否存在流程遗漏或规则违反。
 
-- **Retro-Memory**：用户在视频后期提问，模型需要回忆早期发生的事件
-- **Live-Perception**：用户在当前时间点提问，模型只能看到当前窗口
-- **Pro-Response**：模型需要主动监测视频流，在目标事件出现时及时报警
+因此，本项目将长程视频评测抽象为一个配置驱动的评测流程。每次实验通过配置文件指定数据集、任务类型、模型类型、抽帧策略、评分方式和存储行为。评测入口只负责调度流程，具体逻辑由各模块独立实现。
 
-因此，本框架强调**时间维度上的可见性控制**和**交互轨迹的完整记录**。
-
----
-
-## 当前功能（第一阶段）
-
-✅ **Retro-Memory 离线评测**
-- 读取 RIVER 官方标注（Retro-Memory / Live-Perception / Pro-Response）
-- 根据 `question_time` 构建可见视频窗口 `[0, question_time]`
-- 均匀抽帧，构造选择题 Prompt
-- 调用多模态大模型（OpenAI GPT-4o / 阿里百炼 Qwen-VL）
-- 解析答案、计算准确率、保存完整结果
-
-✅ **工程级基础设施**
-- **请求缓存**：相同请求直接命中缓存，避免重复花钱调 API
-- **帧缓存**：同一视频同参数抽过的帧保存复用，加速二次评测
-- **成本追踪**：精确记录 input/output token 数和预估费用
-- **错误处理**：API 内容审核等异常被捕获，不中断评测流程
-- **配置驱动**：YAML 统一管理实验参数，支持命令行覆盖
-
----
+当前主线任务是 RIVER Retro-Memory API baseline。该任务用于验证框架的基本能力，包括读取 RIVER 标注、根据问题时间控制视频可见范围、抽取长短记忆帧、调用多模态模型、解析选择题答案并保存评测结果。
 
 ## 项目结构
 
-```
-RIVER/
-├── river_eval/              # 核心评测框架（重点维护）
-│   ├── datasets/            # 数据集适配器（RIVER / 电力场景）
-│   ├── tasks/               # 任务定义（Retro-Memory / Live-Perception / Pro-Response）
-│   ├── models/              # 模型适配器（OpenAI / Qwen / 本地模型）
-│   ├── eval/                # 评测指标（准确率 / 响应时间 / 误报率）
-│   ├── utils/               # 工具（抽帧 / 缓存 / 成本追踪 / 路径解析）
-│   └── runners/             # 评测入口
-│
-├── configs/                 # 实验配置文件
-│   ├── retro_memory_gpt.yaml
-│   └── retro_memory_qwen.yaml
-│
-├── annotations/             # RIVER 官方标注 JSON
+```text
+LV_benchmark/
+├── benchmark/
+│   ├── config.py
+│   ├── schema.py
+│   ├── datasets/
+│   │   ├── base.py
+│   │   ├── registry.py
+│   │   └── river.py
+│   ├── tasks/
+│   │   ├── base.py
+│   │   ├── registry.py
+│   │   └── river/
+│   │       ├── retro_memory.py
+│   │       ├── live_perception.py
+│   │       ├── pro_response_instant.py
+│   │       └── pro_response_streaming.py
+│   ├── models/
+│   │   ├── base.py
+│   │   ├── registry.py
+│   │   ├── api/
+│   │   │   ├── qwen_api_model.py
+│   │   │   └── openai_model.py
+│   │   └── local/
+│   │       └── qwen_local_model.py
+│   ├── video/
+│   │   ├── frame_policies.py
+│   │   ├── frame_sampler.py
+│   │   ├── registry.py
+│   │   └── river_policies.py
+│   ├── memory/
+│   │   ├── base.py
+│   │   ├── no_memory.py
+│   │   └── sliding_window_memory.py
+│   ├── eval/
+│   │   ├── multiple_choice.py
+│   │   ├── registry.py
+│   │   └── river/
+│   │       └── retro_memory_scoring.py
+│   ├── storage/
+│   │   ├── cache.py
+│   │   ├── cost_tracker.py
+│   │   ├── result_writer.py
+│   │   └── trace_writer.py
+│   ├── utils/
+│   │   └── video_resolver.py
+│   └── runners/
+│       └── run_eval.py
+├── river_eval/
+│   └── runners/
+│       └── run_eval.py
+├── configs/
+│   └── experiments/
+│       └── river_retro_qwen_strict.yaml
+├── annotations/
 │   ├── Retro-Memory.json
 │   ├── Live-Perception.json
 │   ├── Pro-Response-Instant.json
 │   └── Pro-Response-Streaming.json
-│
-├── data_manifests/          # 视频清单（各来源的视频 ID 列表）
-├── scripts/                 # 运行脚本
-├── docs/                    # 设计文档
-├── data/videos/             # 视频数据（本地存放，不上传 git）
-└── results/                 # 评测结果（运行时生成，不上传 git）
+├── data_manifests/
+├── scripts/
+├── docs/
+├── data/
+│   └── videos/
+└── results/
 ```
 
----
+`benchmark/` 是当前主包，后续开发都应围绕该目录进行。`river_eval/` 只保留旧命令兼容入口，不再作为主开发目录。
 
-## 快速开始
+主要模块说明：
 
-### 1. 环境准备
-
-```bash
-# Python 3.10+
-pip install openai pyyaml python-dotenv
-
-# ffmpeg（项目中已提供静态二进制，或系统安装）
-# ./bin/ffmpeg 或系统 PATH 中的 ffmpeg
+```text
+benchmark/datasets/    数据集读取与样本构造
+benchmark/tasks/       任务定义与 prompt 构造
+benchmark/models/      API 模型和本地模型适配
+benchmark/video/       抽帧策略与视频窗口控制
+benchmark/memory/      记忆机制接口与实现
+benchmark/eval/        输出解析与评分逻辑
+benchmark/storage/     缓存、结果、成本和 trace 存储
+benchmark/runners/     统一评测入口
 ```
 
-### 2. 配置 API Key
+## 配置方式
 
-创建 `.env` 文件（已加入 `.gitignore`，不会提交）：
+实验通过 YAML 文件配置。当前主线配置文件为：
 
-```bash
-# 阿里百炼（Qwen-VL）
-DASHSCOPE_API_KEY=sk-your-key-here
-
-# OpenAI（GPT-4o）
-OPENAI_API_KEY=sk-your-key-here
+```text
+configs/experiments/river_retro_qwen_strict.yaml
 ```
 
-### 3. 准备视频数据
-
-视频下载到 `data/videos/RIVER/` 目录下，按来源分子文件夹：
-
-```
-data/videos/RIVER/
-├── Vript-RR/
-│   └── -n5eIlDgY5w.mp4
-├── LongVideoBench/
-│   └── NAJOZTNkhlI.mp4
-├── LVBench/
-│   └── ...
-└── ...
-```
-
-### 4. 运行评测
-
-**使用 Qwen-VL-Plus（推荐，成本低）：**
-
-```bash
-python3 -m river_eval.runners.run_eval \
-  --config configs/retro_memory_qwen.yaml \
-  --max-samples 10
-```
-
-**使用 GPT-4o：**
-
-```bash
-python3 -m river_eval.runners.run_eval \
-  --config configs/retro_memory_gpt.yaml \
-  --max-samples 10
-```
-
-### 5. 查看结果
-
-```bash
-cat results/retro_memory_qwen/summary.json
-cat results/retro_memory_qwen/cost_report.json
-```
-
----
-
-## 配置说明
-
-以 `configs/retro_memory_qwen.yaml` 为例：
+一个实验配置需要显式声明以下部分：
 
 ```yaml
 experiment:
-  name: retro_memory_qwen          # 实验名称
-  output_dir: results/retro_memory_qwen
-  max_samples: 10                   # 评测样本数（覆盖全部则为空）
+  name: river_retro_qwen_strict
+  output_dir: results/river_retro_qwen_strict
+  max_samples: 10
 
 dataset:
+  name: river_retro_memory
   annotation_path: annotations/Retro-Memory.json
   video_root: data/videos/RIVER
 
 task:
-  name: retro_memory
-  max_frames: 16                    # 每样本抽帧数（控制成本和速度）
-  frame_resolution: 448             # 帧短边分辨率
+  name: river_retro_memory
 
 model:
-  name: qwen_api                    # qwen_api / openai
-  model: qwen-vl-plus               # qwen-vl-plus / qwen-vl-max / gpt-4o
+  name: qwen_api
+  model: qwen-vl-plus
   temperature: 0
   max_tokens: 16
 
+video:
+  frame_policy: river_long_short
+  frame_resolution: 448
+
+prompt:
+  style: river_longshort
+
+evaluation:
+  scoring: river_mcq_accuracy
+
 storage:
-  use_cache: true                   # 是否启用请求缓存和帧缓存
-  cache_dir: auto                   # auto = results/{exp}/cache
+  use_cache: true
+  cache_dir: auto
+  save_trace: true
+  cache_errors: false
 
 cost:
-  track: true                       # 是否追踪费用
-  pricing:                          # 单价（USD / 1K tokens）
-    qwen-vl-plus: [0.00050, 0.00050]
-    gpt-4o: [0.00250, 0.01000]
+  track: true
 ```
 
----
+各字段含义如下：
 
-## 五阶段演进路线
+```text
+experiment     实验名称、输出目录和样本数量控制
+dataset        数据集名称、标注路径和视频根目录
+task           任务类型，例如 RIVER Retro-Memory
+model          模型适配器和具体模型名称
+video          抽帧策略、分辨率和视频输入控制
+prompt         prompt 风格
+evaluation     评分方式
+storage        缓存、结果保存和 trace 行为
+cost           token 与费用统计
+```
 
-| 阶段 | 目标 | 状态 |
-|------|------|------|
-| **第一阶段** | Retro-Memory 离线评测闭环 | ✅ 已完成 |
-| **第二阶段** | Live-Perception + Pro-Response + 在线交互引擎 | ⏳ 待实现 |
-| **第三阶段** | 多模型横向评测（GPT / Gemini / Claude / Qwen / InternVL） | ⏳ 待实现 |
-| **第四阶段** | 记忆机制消融（SlidingWindow / Token / Event / RuleState） | ⏳ 待实现 |
-| **第五阶段** | 电力作业场景适配（违规检测 / 风险预警 / 规程监督） | ⏳ 待实现 |
-
----
-
-## 核心设计原则
-
-1. **数据集可替换**：`BaseDataset` 接口统一，接入电力数据只需写一个适配器
-2. **模型接入统一**：`BaseModel` 接口屏蔽 OpenAI / 百炼 / 本地模型的差异
-3. **记忆机制可插拔**：`BaseMemory` 接口预留，后续改进记忆模块无需重写任务逻辑
-4. **结果可追踪**：每条样本保存 `visible_range`、`frame_count`、`cached`、`cost_usd` 等完整上下文
-5. **成本可控**：缓存机制 + 配置化定价，避免重复花钱
-
----
-
-## 协作开发指南
+当前推荐运行入口：
 
 ```bash
-# 1. 克隆仓库
-git clone https://github.com/yourname/RIVER-eval.git
-cd RIVER-eval
-
-# 2. 安装依赖
-pip install -r requirements.txt  # 待补充
-
-# 3. 配置环境变量
-cp .env.example .env
-# 编辑 .env，填入你的 API Key
-
-# 4. 运行测试
-python3 -m river_eval.runners.run_eval \
-  --config configs/retro_memory_qwen.yaml \
-  --max-samples 3
+python -m benchmark.runners.run_eval \
+  --config configs/experiments/river_retro_qwen_strict.yaml \
+  --max-samples 1
 ```
 
----
+旧入口仍可使用，但只作为兼容 wrapper：
+
+```bash
+python -m river_eval.runners.run_eval \
+  --config configs/experiments/river_retro_qwen_strict.yaml \
+  --max-samples 1
+```
+
+新实验应优先使用 `benchmark.runners.run_eval`。
+
+## 开发指南
+
+新增数据集时，在 `benchmark/datasets/` 下实现数据集适配器，并在对应 registry 中注册。数据集模块应负责读取标注、解析视频路径、构造统一样本对象，不应包含模型调用和评分逻辑。
+
+新增任务时，在 `benchmark/tasks/` 下实现任务模块。任务模块应负责根据样本构造模型输入，包括问题、选项、可见时间范围、prompt 格式和必要的任务上下文。不同任务 family 可以放在独立子目录中，例如 `benchmark/tasks/river/`。
+
+新增模型时，在 `benchmark/models/` 下实现模型适配器。API 模型放在 `benchmark/models/api/`，本地模型放在 `benchmark/models/local/`。模型适配器应遵循统一的 `BaseModel` 接口，避免在任务模块中直接写具体模型调用代码。
+
+新增抽帧策略时，在 `benchmark/video/` 下实现 frame policy，并通过 registry 注册。抽帧策略应只负责决定从哪些时间点取帧，不应处理 prompt、评分或模型调用逻辑。
+
+新增记忆机制时，在 `benchmark/memory/` 下实现 `BaseMemory` 接口。记忆模块应负责保存、更新和检索历史信息。不同记忆机制应能通过配置切换，便于做消融实验。
+
+新增评分方式时，在 `benchmark/eval/` 下实现 scorer，并通过 registry 注册。评分模块应只负责解析模型输出和计算指标，不应修改模型输入或样本内容。
+
+新增实验时，应优先新增 YAML 配置文件，而不是修改 `run_eval.py`。`run_eval.py` 只负责读取配置、构建组件和调度执行，不应写入具体任务或具体模型的特殊逻辑。
+
+提交代码前建议至少运行一次最小 smoke test：
+
+```bash
+python -m benchmark.runners.run_eval \
+  --config configs/experiments/river_retro_qwen_strict.yaml \
+  --max-samples 1
+```
+
+同时检查：
+
+```bash
+python -m compileall benchmark river_eval
+```
 
 ## 引用
 
-如果你使用了本框架或 RIVER 数据集，请引用：
+如果使用 RIVER 数据集，请引用：
 
 ```bibtex
 @misc{shi2026riverrealtimeinteractionbenchmark,
@@ -232,8 +225,6 @@ python3 -m river_eval.runners.run_eval \
   url={https://arxiv.org/abs/2603.03985}
 }
 ```
-
----
 
 ## License
 

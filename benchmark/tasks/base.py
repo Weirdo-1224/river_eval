@@ -5,7 +5,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Any
 
-from river_eval.schema import Sample
+from benchmark.schema import Sample
 
 
 class BaseTask(ABC):

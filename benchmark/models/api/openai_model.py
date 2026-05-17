@@ -1,4 +1,4 @@
-"""Qwen-VL API model adapter via Alibaba Bailian (DashScope)."""
+"""OpenAI GPT-4o model adapter with caching and cost tracking."""
 
 from __future__ import annotations
 
@@ -10,41 +10,47 @@ from typing import Any
 
 import openai
 
-from river_eval.models.base import BaseModel
-from river_eval.utils.cache import RequestCache
-from river_eval.utils.cost_tracker import CostTracker
+from benchmark.models.base import BaseModel
+from benchmark.models.registry import register_model
+from benchmark.storage.cache import RequestCache
+from benchmark.storage.cost_tracker import CostTracker
 
 
-class QwenAPIModel(BaseModel):
-    """Adapter for Qwen-VL-Plus / Qwen-VL-Max via DashScope OpenAI-compatible API."""
-
-    DEFAULT_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+@register_model("openai_api")
+@register_model("openai")
+class OpenAIModel(BaseModel):
+    """Adapter for OpenAI vision models (e.g. gpt-4o)."""
 
     def __init__(
         self,
-        model: str = "qwen-vl-plus",
+        model: str = "gpt-4o",
         temperature: float = 0.0,
         max_tokens: int = 16,
         api_key: str | None = None,
         base_url: str | None = None,
         cache: RequestCache | None = None,
         cost_tracker: CostTracker | None = None,
+        cache_errors: bool = False,
+        reuse_failed_cache: bool = False,
     ) -> None:
         self.model = model
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.cache = cache
         self.cost_tracker = cost_tracker
-        key = api_key or os.getenv("DASHSCOPE_API_KEY")
+        self.cache_errors = cache_errors
+        self.reuse_failed_cache = reuse_failed_cache
+        key = api_key or os.getenv("OPENAI_API_KEY")
         if not key:
             raise ValueError(
-                "DashScope API key is required. Set DASHSCOPE_API_KEY env var or pass api_key."
+                "OpenAI API key is required. Set OPENAI_API_KEY env var or pass api_key."
             )
-        url = base_url or self.DEFAULT_BASE_URL
-        self.client = openai.OpenAI(api_key=key, base_url=url)
+        self.client = openai.OpenAI(api_key=key, base_url=base_url)
         self._last_latency = 0.0
         self._last_cached = False
         self._last_usage: dict[str, int] = {}
+        self._last_status = "init"
+        self._last_error: str | None = None
 
     def generate(
         self,
@@ -53,19 +59,27 @@ class QwenAPIModel(BaseModel):
         memory: Any = None,
         sample_id: str = "",
     ) -> str:
-        """Generate a response from Qwen-VL."""
+        """Send a vision request with image frames.
+
+        Args:
+            messages: Chat messages in OpenAI format.
+            image_paths: Paths to image frames to include in the prompt.
+            memory: Optional memory context (reserved for Phase 4).
+            sample_id: Sample identifier for cache key.
+        """
+        # Build content list: text messages first, then images.
         content: list[dict[str, Any]] = []
 
-        # System text first.
+        # Add system/user text from messages.
         for msg in messages:
             if msg.get("role") == "system":
                 content.append({"type": "text", "text": msg["content"]})
 
-        # Images.
+        # Add images.
         for img_path in image_paths:
             content.append(self._encode_image(img_path))
 
-        # User text after images.
+        # Add user text after images (GPT-4o typically expects images before the question).
         for msg in messages:
             if msg.get("role") == "user":
                 content.append({"type": "text", "text": msg["content"]})
@@ -76,10 +90,15 @@ class QwenAPIModel(BaseModel):
         if self.cache is not None:
             cache_key = RequestCache.make_key(self.model, sample_id, messages, image_paths)
             cached = self.cache.get(cache_key)
-            if cached is not None:
+            cached_status = cached.get("status") if cached is not None else None
+            if cached is not None and cached_status is None:
+                cached_status = "failed" if str(cached.get("raw_output", "")).startswith("<ERROR:") else "success"
+            if cached is not None and (cached_status == "success" or self.reuse_failed_cache):
                 self._last_latency = 0.0
                 self._last_cached = True
                 self._last_usage = cached.get("usage", {})
+                self._last_status = cached_status
+                self._last_error = cached.get("error")
                 if self.cost_tracker is not None:
                     self.cost_tracker.add(
                         self.model,
@@ -101,9 +120,19 @@ class QwenAPIModel(BaseModel):
             self._last_latency = latency
             self._last_cached = False
             self._last_usage = {}
+            self._last_status = "failed"
+            self._last_error = f"{type(exc).__name__}: {exc}"
             error_msg = f"<ERROR: {type(exc).__name__}: {exc}>"
-            if self.cache is not None:
-                self.cache.set(cache_key, {"raw_output": error_msg, "usage": {}})
+            if self.cache is not None and self.cache_errors:
+                self.cache.set(
+                    cache_key,
+                    {
+                        "status": "failed",
+                        "raw_output": error_msg,
+                        "usage": {},
+                        "error": self._last_error,
+                    },
+                )
             return error_msg
 
         latency = time.time() - start
@@ -111,6 +140,8 @@ class QwenAPIModel(BaseModel):
         raw = response.choices[0].message.content or ""
         self._last_latency = latency
         self._last_cached = False
+        self._last_status = "success"
+        self._last_error = None
 
         # Extract usage.
         usage = {}
@@ -132,7 +163,7 @@ class QwenAPIModel(BaseModel):
 
         # Save to cache.
         if self.cache is not None:
-            self.cache.set(cache_key, {"raw_output": raw, "usage": usage})
+            self.cache.set(cache_key, {"status": "success", "raw_output": raw, "usage": usage})
 
         return raw
 
