@@ -1,0 +1,44 @@
+experiment:
+  name: river_pro_response_instant_qwen
+  output_dir: results/river_pro_response_instant_qwen
+
+dataset:
+  name: river_pro_response_instant
+  annotation_path: annotations/Pro-Response-Instant.json
+  video_root: data/videos/RIVER
+
+task:
+  name: river_pro_response_instant
+  max_frames: 8
+  frame_resolution: 448
+
+video:
+  frame_policy: sliding_window_stream
+  max_frames: 8
+  frame_resolution: 448
+  window_sec: 8.0
+  step_sec: 4.0
+
+model:
+  name: qwen_api
+  model: qwen-vl-plus
+  temperature: 0
+  max_tokens: 16
+
+storage:
+  save_raw_output: true
+  save_trace: true
+  use_cache: true
+  cache_dir: auto
+
+cost:
+  track: true
+  pricing:
+    qwen-vl-plus: [0.00050, 0.00050]
+    qwen-vl-max: [0.00200, 0.00200]
+    gpt-4o: [0.00250, 0.01000]
+    gpt-4o-mini: [0.00015, 0.00060]
+
+evaluation:
+  scoring: pro_response_event_detection
+  tolerance_sec: 4.0

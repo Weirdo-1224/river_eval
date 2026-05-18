@@ -37,3 +37,22 @@ class BaseFramePolicy:
 
     def sample(self, sample: Sample, cache: FrameCache | None = None) -> FrameBundle:
         raise NotImplementedError
+
+
+class StreamFramePolicy(BaseFramePolicy):
+    """Base class for policies that produce multiple frame bundles over time.
+
+    Used by OnlineRunner for streaming evaluation (e.g. Pro-Response).
+    """
+
+    def sample_stream(
+        self,
+        sample: Sample,
+        cache: FrameCache | None = None,
+    ) -> list[FrameBundle]:
+        """Return a sequence of frame bundles covering the video timeline.
+
+        Default implementation falls back to ``sample()`` and wraps in a list.
+        Subclasses should override for true streaming behavior.
+        """
+        return [self.sample(sample, cache=cache)]

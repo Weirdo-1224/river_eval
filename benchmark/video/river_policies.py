@@ -13,7 +13,7 @@ from pathlib import Path
 
 from benchmark.schema import Sample
 from benchmark.storage.cache import FrameCache
-from benchmark.video.frame_policies import BaseFramePolicy, FrameBundle, FrameGroup
+from benchmark.video.frame_policies import BaseFramePolicy, FrameBundle, FrameGroup, StreamFramePolicy
 from benchmark.video.registry import register_frame_policy
 
 
@@ -199,3 +199,116 @@ class RiverLongShortPolicy(BaseFramePolicy):
             long=FrameGroup("long", long_paths, long_timestamps),
             short=FrameGroup("short", short_paths, short_timestamps),
         )
+
+
+@register_frame_policy("live_perception_window")
+class LivePerceptionWindowPolicy(BaseFramePolicy):
+    """Frame policy for Live-Perception: sample a recent window before question_time.
+
+    The model can only see the video segment [question_time - window_sec, question_time],
+    simulating a live observer who only has access to the current feed.
+    """
+
+    name = "live_perception_window"
+
+    def __init__(
+        self,
+        max_frames: int = 16,
+        frame_resolution: int = 448,
+        window_sec: float = 8.0,
+        **_: object,
+    ) -> None:
+        self.max_frames = max_frames
+        self.frame_resolution = frame_resolution
+        self.window_sec = window_sec
+
+    def sample(self, sample: Sample, cache: FrameCache | None = None) -> FrameBundle:
+        end = max(float(sample.question_time), 0.0)
+        start = max(0.0, end - self.window_sec)
+        timestamps = _linspace(start, end, self.max_frames, include_end=True)
+        timestamps = _dedupe_sorted(timestamps)
+        paths = _extract_frames(sample, self.name, "window", timestamps, self.frame_resolution, cache)
+        return FrameBundle(
+            policy_name=self.name,
+            visible_range=[start, end],
+            long=FrameGroup("long", [], []),
+            short=FrameGroup("short", paths, timestamps),
+        )
+
+
+@register_frame_policy("sliding_window_stream")
+class SlidingWindowStreamPolicy(StreamFramePolicy):
+    """Sliding-window frame extraction for online / streaming evaluation.
+
+    Divides the video timeline into overlapping windows:
+    - Each window is ``window_sec`` long
+    - Windows advance by ``step_sec`` each step
+    - Each window extracts ``max_frames`` uniformly
+
+    Used by OnlineRunner for Pro-Response tasks where the model must
+    actively monitor the video stream.
+    """
+
+    name = "sliding_window_stream"
+
+    def __init__(
+        self,
+        max_frames: int = 8,
+        frame_resolution: int = 448,
+        window_sec: float = 8.0,
+        step_sec: float = 4.0,
+        **_: object,
+    ) -> None:
+        self.max_frames = max_frames
+        self.frame_resolution = frame_resolution
+        self.window_sec = window_sec
+        self.step_sec = step_sec
+
+    def sample_stream(
+        self,
+        sample: Sample,
+        cache: FrameCache | None = None,
+    ) -> list[FrameBundle]:
+        duration = float(sample.metadata.get("duration_sec", sample.question_time))
+        bundles: list[FrameBundle] = []
+
+        t = 0.0
+        while t + self.step_sec <= duration:
+            w_start = t
+            w_end = min(t + self.window_sec, duration)
+            timestamps = _linspace(w_start, w_end, self.max_frames, include_end=True)
+            timestamps = _dedupe_sorted(timestamps)
+            paths = _extract_frames(
+                sample, self.name, f"win_{w_start:.1f}", timestamps,
+                self.frame_resolution, cache,
+            )
+            bundles.append(
+                FrameBundle(
+                    policy_name=self.name,
+                    visible_range=[w_start, w_end],
+                    long=FrameGroup("long", [], []),
+                    short=FrameGroup("short", paths, timestamps),
+                )
+            )
+            t += self.step_sec
+
+        # Final window if there is remaining tail
+        if t < duration:
+            w_start = max(0.0, duration - self.window_sec)
+            w_end = duration
+            timestamps = _linspace(w_start, w_end, self.max_frames, include_end=True)
+            timestamps = _dedupe_sorted(timestamps)
+            paths = _extract_frames(
+                sample, self.name, f"win_{w_start:.1f}", timestamps,
+                self.frame_resolution, cache,
+            )
+            bundles.append(
+                FrameBundle(
+                    policy_name=self.name,
+                    visible_range=[w_start, w_end],
+                    long=FrameGroup("long", [], []),
+                    short=FrameGroup("short", paths, timestamps),
+                )
+            )
+
+        return bundles

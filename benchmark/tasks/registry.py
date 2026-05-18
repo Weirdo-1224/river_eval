@@ -26,3 +26,6 @@ def build_task(name: str, **kwargs: Any) -> BaseTask:
 
 def import_builtin_tasks() -> None:
     import benchmark.tasks.river.retro_memory  # noqa: F401
+    import benchmark.tasks.river.live_perception  # noqa: F401
+    import benchmark.tasks.river.pro_response_instant  # noqa: F401
+    import benchmark.tasks.river.pro_response_streaming  # noqa: F401

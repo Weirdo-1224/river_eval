@@ -1,0 +1,43 @@
+experiment:
+  name: river_live_perception_qwen
+  output_dir: results/river_live_perception_qwen
+
+dataset:
+  name: river_live_perception
+  annotation_path: annotations/Live-Perception.json
+  video_root: data/videos/RIVER
+
+task:
+  name: river_live_perception
+  max_frames: 16
+  frame_resolution: 448
+  prompt_style: live_window
+
+video:
+  frame_policy: live_perception_window
+  max_frames: 16
+  frame_resolution: 448
+  window_sec: 8.0
+
+model:
+  name: qwen_api
+  model: qwen-vl-plus
+  temperature: 0
+  max_tokens: 16
+
+storage:
+  save_raw_output: true
+  save_trace: true
+  use_cache: true
+  cache_dir: auto
+
+cost:
+  track: true
+  pricing:
+    qwen-vl-plus: [0.00050, 0.00050]
+    qwen-vl-max: [0.00200, 0.00200]
+    gpt-4o: [0.00250, 0.01000]
+    gpt-4o-mini: [0.00015, 0.00060]
+
+evaluation:
+  scoring: river_mcq_accuracy

@@ -29,3 +29,4 @@ def build_scorer(name: str) -> Scorer:
 def import_builtin_scorers() -> None:
     import benchmark.eval.multiple_choice  # noqa: F401
     import benchmark.eval.river.retro_memory_scoring  # noqa: F401
+    import benchmark.eval.river.pro_response_scoring  # noqa: F401
